@@ -9,3 +9,12 @@
 |Analysis of network motifs|[Motifs](./scripts/Motifs.ipynb) |
 |Ecological indexes with R (taxonomic profiles)|[Index R](./scripts/Ecological_index.ipynb) |
 |Ecological indexes with R (metabolicc profiles)|[Index R](./scripts/Diversidad_pfams.ipynb) |
+
+
+# To compute the abundances from the output of hmmsearch 
+Use the following script that is also implemented in [MEBS software](https://github.com/eead-csic-compbio/metagenome_Pfam_score/tree/master/scripts)
+
+```
+ perl scripts/extract_pfam.pl -matrixdir matrix_pfam/ > data/test.pfams.tab 
+
+```
