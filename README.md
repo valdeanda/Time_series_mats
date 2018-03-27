@@ -2,4 +2,4 @@
 
 ### Relative abundance barplots
 
-![Barplots](./scripts/Bar_plots_composition.html)
+![Barplots](./scripts/Bar_plots_composition.ipynb)
