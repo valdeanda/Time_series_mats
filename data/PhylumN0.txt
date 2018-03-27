@@ -1,0 +1,101 @@
+	S1	S2	S3	S4	S5	S6	S7	S8	S9	S10	S11	S12
+Proteobacteria	18054	9630	34974	30403	27354	14545	22826	28080	18813	18100	15275	22785
+Bacteria unclassified	1438	479	1550	1925	1651	1652	1938	2156	2058	2401	2537	2551
+Actinobacteria	1387	326	1316	2376	1510	1608	2523	2093	2155	2069	1867	2573
+Firmicutes	261	1425	472	1339	340	393	2291	1175	1056	326	506	588
+Cyanobacteria	593	173	1777	1362	827	94	900	550	1793	563	71	152
+Bacteroidetes	579	1028	1483	690	1444	281	771	855	473	342	363	368
+Planctomycetes	429	14	241	378	266	558	456	725	571	506	1026	845
+Verrucomicrobia	188	98	327	234	237	306	279	415	356	168	359	527
+Ascomycota	2	1	2	690	3	5	1087	253	313	800	3	2
+Acidobacteria	269	2	104	276	153	160	298	215	204	271	186	309
+Chloroflexi	76	2	48	149	143	233	220	240	385	184	355	408
+Terrabacteria group unclassified	161	33	152	217	177	161	210	201	276	202	186	247
+Eukaryota unclassified	296	27	172	295	351	96	229	87	219	116	71	185
+Euryarchaeota	88	248	32	35	51	98	38	201	63	50	145	153
+Spirochaetes	34	74	235	10	146	74	62	186	148	51	70	75
+Unclassified Bacteria unclassified	40	39	64	49	91	67	89	176	126	54	87	161
+Deinococcus-Thermus	40	6	44	84	67	53	92	128	90	75	73	141
+Gemmatimonadetes	67	0	20	108	40	36	77	77	66	128	73	105
+Parcubacteria group unclassified	19	19	28	13	34	23	27	39	28	37	51	31
+Bacteria candidate phyla unclassified	9	8	8	6	15	39	13	19	21	8	40	42
+Synergistetes	3	2	8	0	4	32	15	37	22	11	28	28
+Armatimonadetes	13	1	4	15	4	6	3	24	9	17	32	47
+Chlorobi	3	0	31	1	8	1	39	27	8	2	18	17
+Archaea unclassified	5	0	3	2	4	29	4	16	24	25	6	36
+Candidatus Rokubacteria	10	0	8	10	5	20	16	13	12	9	17	19
+Thermotogae	2	4	16	1	5	2	8	73	3	4	10	10
+Nitrospirae	6	2	2	12	3	8	24	11	15	19	14	11
+Microgenomates group unclassified	7	1	6	16	9	16	14	11	4	16	11	10
+Nitrospinae	16	0	0	10	0	0	8	15	1	17	1	19
+PVC group unclassified	6	2	7	6	6	7	3	7	12	3	8	13
+Cloacimonetes	2	2	9	4	8	2	8	11	9	2	11	10
+Patescibacteria group unclassified	2	4	7	4	3	5	2	9	6	8	5	14
+FCB group unclassified	7	0	1	4	3	2	14	18	3	2	3	10
+Nanoarchaeota	1	1	3	0	4	9	5	14	6	8	6	9
+Candidatus Moranbacteria	4	2	6	5	4	5	5	10	8	6	3	6
+Candidate division NC10	0	0	0	0	0	17	0	0	7	0	16	22
+Chlamydiae	9	2	10	6	6	3	9	3	3	5	1	4
+Marinimicrobia	1	4	3	8	4	2	7	4	6	3	8	5
+Omnitrophica	0	0	1	0	1	17	0	0	4	0	11	19
+Fusobacteria	7	8	6	3	5	4	3	1	3	4	2	5
+Bacteroidetes/Chlorobi group unclassified	2	1	4	15	4	0	9	4	5	2	2	2
+Candidatus Uhrbacteria	1	2	3	2	5	7	5	6	5	7	2	4
+Thaumarchaeota	2	0	2	9	0	4	5	5	2	7	4	7
+Candidatus Peregrinibacteria	3	5	4	3	2	5	8	1	3	5	1	7
+Candidatus Falkowbacteria	0	0	3	2	3	5	2	2	3	5	1	9
+Candidatus Atribacteria	1	1	2	0	2	1	1	12	1	0	9	4
+Candidatus Parcubacteria	1	1	1	0	1	7	2	0	0	0	0	16
+Candidatus Magasanikbacteria	0	2	0	1	1	1	1	4	1	3	7	7
+Latescibacteria	0	0	5	1	0	0	1	3	0	1	11	5
+Chrysiogenetes	0	0	0	0	0	4	0	10	0	0	8	4
+Candidatus Hydrogenedentes	1	0	2	1	2	1	2	4	3	5	2	2
+Candidate division Zixibacteria	1	0	0	1	2	1	1	1	0	1	16	1
+Ignavibacteriae	0	0	0	0	0	13	0	0	0	11	0	0
+Candidatus Nomurabacteria	2	2	3	2	1	0	1	3	2	3	3	0
+Candidatus Woesebacteria	0	0	2	2	3	2	4	1	2	1	0	4
+Candidatus Aminicenantes	2	1	0	0	1	4	1	3	1	3	2	2
+Tenericutes	0	6	2	2	1	0	2	4	1	1	0	1
+Candidatus Wolfebacteria	1	0	3	1	1	2	2	3	1	0	4	1
+Candidatus Campbellbacteria	0	5	2	1	4	1	0	3	1	0	1	1
+Candidatus Acetothermia	0	0	0	0	0	0	0	0	0	0	10	8
+Dikarya unclassified	0	0	1	3	1	1	3	3	2	0	0	3
+Aquificae	0	0	3	1	3	1	2	1	0	0	1	5
+Unclassified Archaea unclassified	0	0	0	0	0	0	0	0	0	0	17	0
+Crenarchaeota	1	0	2	0	2	2	1	0	2	0	1	5
+Candidate division WWE3	1	0	1	3	1	3	1	1	1	1	0	2
+Candidatus Beckwithbacteria	0	1	1	2	0	0	3	1	1	0	3	3
+Candidatus Amesbacteria	0	1	0	0	2	4	1	1	2	1	1	2
+Candidatus Kaiserbacteria	0	0	0	3	1	0	0	6	0	0	2	3
+Candidate division CPR2	1	0	1	3	0	1	2	0	2	1	3	0
+Candidatus Roizmanbacteria	0	0	1	1	0	2	1	2	1	2	3	1
+Fibrobacteres	1	1	0	1	1	1	2	0	1	2	1	1
+Candidatus Daviesbacteria	0	1	1	0	1	2	0	3	1	1	2	0
+Candidatus Fervidibacteria	1	1	1	0	0	1	2	0	1	0	1	3
+Candidatus Pacebacteria	1	0	0	2	1	1	2	2	0	1	1	0
+Candidatus Azambacteria	0	1	1	2	1	3	1	0	0	1	0	1
+Candidatus Collierbacteria	0	1	0	2	0	1	1	0	1	1	1	2
+Candidatus Gottesmanbacteria	0	0	0	2	2	1	0	1	1	0	1	1
+Candidatus Shapirobacteria	0	0	0	1	0	2	2	1	1	0	1	1
+Candidatus Adlerbacteria	0	1	1	1	1	0	0	1	1	1	1	0
+Candidatus Jorgensenbacteria	0	0	1	1	0	0	1	2	0	0	2	1
+Candidatus Poribacteria	2	0	0	0	1	0	0	1	1	1	0	1
+Basidiomycota	0	0	0	1	1	0	0	0	2	0	1	2
+Apicomplexa	0	0	2	1	1	0	1	0	0	1	0	0
+Candidatus Saccharibacteria	0	0	0	0	3	0	0	0	0	1	1	0
+Candidatus Berkelbacteria	0	0	0	0	0	0	0	3	0	0	1	1
+Elusimicrobia	1	0	0	0	0	1	0	0	0	0	1	1
+Candidate division CPR3	0	0	1	0	0	2	0	1	0	0	0	0
+Candidatus Giovannonibacteria	0	0	2	0	0	0	0	0	1	0	0	1
+Candidatus Levybacteria	0	0	0	0	0	1	0	0	0	1	0	2
+Fungi unclassified	0	0	0	1	0	0	0	0	1	0	0	1
+Candidatus Curtissbacteria	0	0	0	1	1	0	0	0	1	0	0	0
+TACK group unclassified	1	0	0	0	0	0	0	0	0	0	1	0
+Thermodesulfobacteria	0	0	1	0	0	0	0	0	0	0	0	1
+Candidatus Bathyarchaeota	0	0	0	0	1	0	0	0	0	0	1	0
+Candidatus Diapherotrites	0	0	0	0	0	0	0	1	0	0	1	0
+Dictyoglomi	0	0	0	0	0	0	0	0	1	0	1	0
+Candidatus Calescamantes	0	0	0	0	1	0	0	0	0	0	0	0
+Lentisphaerae	0	0	0	0	0	0	0	0	1	0	0	0
+Candidatus Yanofskybacteria	0	0	0	0	0	0	0	0	0	1	0	0
+Candidatus Microgenomates	0	0	0	0	0	0	0	0	0	0	0	1
