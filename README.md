@@ -11,7 +11,7 @@
 |Ecological indexes with R (metabolicc profiles)|[Index R](./scripts/Diversidad_pfams.ipynb) |
 
 
-# To compute the abundances from the output of hmmsearch 
+# To generate the abundances profile from hmmsearch 
 Use the following script that is also implemented in [MEBS software](https://github.com/eead-csic-compbio/metagenome_Pfam_score/tree/master/scripts)
 
 ```
