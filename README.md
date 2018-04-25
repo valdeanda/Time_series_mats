@@ -5,9 +5,8 @@ De Anda V, Zapata Peñasco I, Blaz J, Poot-Hernandez AC, Contreras Moreira B, Go
 
 
 ###  Figures 
-+
 
-[Computing the main cycles with MEBS over time](https://valdeanda.github.io/Time_series_mats/scripts/MebsInTime.html)
+[+Computing the main cycles with MEBS over time](https://valdeanda.github.io/Time_series_mats/scripts/MebsInTime.html)
 
 <img src="https://valdeanda.github.io/Time_series_mats/figures/MEBS_mats.png" width="256" height="256">
 
