@@ -1,4 +1,4 @@
-# Supplementary Information
+ # Supplementary Information
 
 
 De Anda V, Zapata Peñasco I, Blaz J, Poot-Hernandez AC, Contreras Moreira B, Gonzales Laffite Marcos, Hernandez Rosales M, Gamez Tamariz N, Eguiarte Fruns E, Souza V. Understanding the mechanisms behind the response of environmental perturbations in microbial mats: a metagenomic-network based approach. Submitted in Frontiers in Microbiology 
@@ -26,20 +26,42 @@ In order to reproduce all the figures using the notebooks, the following librari
 
 <img src="https://valdeanda.github.io/Time_series_mats/figures/MEBS_mats.png" width="256" height="256" align="left">
 
-+ Main cycles with MEBS over time in [html](https://valdeanda.github.io/Time_series_mats/scripts/MebsInTime.html) [notebook](https://valdeanda.github.io/Time_series_mats/scripts/MebsInTime.ipynb) formats
++ Main cycles with MEBS over time in [html](https://valdeanda.github.io/Time_series_mats/scripts/MebsInTime.html) [notebook](https://github.com/valdeanda/Time_series_mats/scripts/MebsInTime.ipynb) formats
+
+```bash
+ipython3 notebook MebsInTime.ipynb
+```
+---
+
+<img src="https://valdeanda.github.io/Time_series_mats/figures/Barplot.png" width="256" height="256" align="left">
+
++ Barplot composition and logaritmic scale of taxonomic profile  in [html](https://valdeanda.github.io/Time_series_mats/scripts/Bar_plots_composition.html) and [notebook](https://github.com/valdeanda/Time_series_mats/blob/master/scripts/Bar_plots_composition.ipynb)format 
+
+```bash
+ipython3 notebook Bar_plots_composition.ipynb
+```
+
+
+---
+
+
+---
+
+
+---
+
+
+---
+
+
+---
 
 
 
 
 
 
-|Aim|Script|
-|-------------------------------|---------------------------|
-|Abundance barplot and logaritmic scale|[Barplots](./scripts/Bar_plots_composition.ipynb)|
-|Analysis of core genome using [get_homologues](https://github.com/eead-csic-compbio/get_homologues)|[Core_mats](./scripts/Core_bacteria.ipynb) |
-|Analysis of network motifs|[Motifs](./scripts/Motifs.ipynb) |
-|Ecological indexes with R (taxonomic profiles)|[Index R](./scripts/Ecological_index.ipynb) |
-|Ecological indexes with R (metabolicc profiles)|[Index R](./scripts/Diversidad_pfams.ipynb) |
+
 
 
 # To generate the abundances profile from hmmsearch 
