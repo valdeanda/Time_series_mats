@@ -22,40 +22,32 @@ In order to reproduce all the figures using the notebooks, the following librari
 + Matplotlib ==> 2.02
 
 
-###  `Figures`
+###  Figures
 
 <img src="https://valdeanda.github.io/Time_series_mats/figures/MEBS_mats.png" width="256" height="256" align="left">
 
-+ Main cycles with MEBS over time in [html](https://valdeanda.github.io/Time_series_mats/scripts/MebsInTime.html) [notebook](https://github.com/valdeanda/Time_series_mats/scripts/MebsInTime.ipynb) formats
+### `Main cycles with MEBS over time`
+
+Script available in [html](https://valdeanda.github.io/Time_series_mats/scripts/MebsInTime.html) and  [notebook](https://github.com/valdeanda/Time_series_mats/scripts/MebsInTime.ipynb)  formats. 
+
+Run the notebook 
 
 ```bash
 ipython3 notebook MebsInTime.ipynb
 ```
 ---
 
+### `Barplot composition and logaritmic scale of taxonomic profile`
+
 <img src="https://valdeanda.github.io/Time_series_mats/figures/Barplot.png" width="256" height="256" align="left">
 
-+ Barplot composition and logaritmic scale of taxonomic profile  in [html](https://valdeanda.github.io/Time_series_mats/scripts/Bar_plots_composition.html) and [notebook](https://github.com/valdeanda/Time_series_mats/blob/master/scripts/Bar_plots_composition.ipynb)format 
+Script available in  in [html](https://valdeanda.github.io/Time_series_mats/scripts/Bar_plots_composition.html) and [notebook](https://github.com/valdeanda/Time_series_mats/blob/master/scripts/Bar_plots_composition.ipynb) formats 
+
+Run the notebook 
 
 ```bash
 ipython3 notebook Bar_plots_composition.ipynb
 ```
-
-
----
-
-
----
-
-
----
-
-
----
-
-
----
-
 
 
 
