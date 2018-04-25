@@ -1,4 +1,4 @@
- # Supplementary Information
+  # Supplementary Information
 
 
 De Anda V, Zapata Peñasco I, Blaz J, Poot-Hernandez AC, Contreras Moreira B, Gonzales Laffite Marcos, Hernandez Rosales M, Gamez Tamariz N, Eguiarte Fruns E, Souza V. Understanding the mechanisms behind the response of environmental perturbations in microbial mats: a metagenomic-network based approach. Submitted in Frontiers in Microbiology 
@@ -35,7 +35,15 @@ Run the notebook
 ```bash
 ipython3 notebook MebsInTime.ipynb
 ```
+
+
+
+
+
 ---
+
+
+
 
 ### `Barplot composition and logaritmic scale of taxonomic profile`
 
@@ -50,6 +58,9 @@ ipython3 notebook Bar_plots_composition.ipynb
 ```
 
 
+
+
+---
 
 
 
