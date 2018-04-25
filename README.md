@@ -2,25 +2,22 @@
 
 
 De Anda V, Zapata Peñasco I, Blaz J, Poot-Hernandez AC, Contreras Moreira B, Gonzales Laffite Marcos, Hernandez Rosales M, Gamez Tamariz N, Eguiarte Fruns E, Souza V. Understanding the mechanisms behind the response of environmental perturbations in microbial mats: a metagenomic-network based approach. Submitted in Frontiers in Microbiology 
-
-
-The directory scripts contains all the steps required to compute  the main figures from the article in notebook, html and python format. 
-
-Inside the directory scripts type 
+To reproduce the figures first install [jupyter notebook](http://jupyter.org/install.html)  
+and then clone the repository.  
 
 ```bash
 git clone https://github.com/valdeanda/Time_series_mats.git
 cd scripts 
 ipython3 notebook 
 ```
+The directory scripts contains all the steps required to compute  the main figures from the article in notebook, html and python format.
 
-###  Figures 
 
+###  `Figures`
 
-+ Main cycles with MEBS over time in html, notebook and python formats
-[Computing the main cycles with MEBS over time](https://valdeanda.github.io/Time_series_mats/scripts/MebsInTime.html)
+<img src="https://valdeanda.github.io/Time_series_mats/figures/MEBS_mats.png" width="256" height="256" align="left">
 
-<img src="https://valdeanda.github.io/Time_series_mats/figures/MEBS_mats.png" width="256" height="256">
++ Main cycles with MEBS over time in [html](https://valdeanda.github.io/Time_series_mats/scripts/MebsInTime.html) [notebook](https://valdeanda.github.io/Time_series_mats/scripts/MebsInTime.ipynb) formats
 
 
 
