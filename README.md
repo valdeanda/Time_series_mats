@@ -6,7 +6,7 @@ De Anda V, Zapata Peñasco I, Blaz J, Poot-Hernandez AC, Contreras Moreira B, Go
 
 
 # Computing MEBS in time  
-![Cycles in time](./figures/MEBS_mats.png) {:height="6px" width="7px"}.
+![Cycles in time , 50% ](./figures/MEBS_mats.png)
 [html version ](https://valdeanda.github.io/Time_series_mats/scripts/MebsInTime.html)
 
 
