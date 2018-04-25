@@ -5,7 +5,7 @@ De Anda V, Zapata Peñasco I, Blaz J, Poot-Hernandez AC, Contreras Moreira B, Go
 
 
 # Computing MEBS in time  
-<img src="https://assets-cdn.github.com/images/modules/logos_page/GitHub-Mark.png" width="256" height="256" title="Github Logo">
+<img src="https://valdeanda.github.io/Time_series_mats/figures/MEBS_mats.png" width="256" height="256">
 
 
 [html version ](https://valdeanda.github.io/Time_series_mats/scripts/MebsInTime.html)
