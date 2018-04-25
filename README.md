@@ -4,9 +4,8 @@
 De Anda V, Zapata Peñasco I, Blaz J, Poot-Hernandez AC, Contreras Moreira B, Gonzales Laffite Marcos, Hernandez Rosales M, Gamez Tamariz N, Eguiarte Fruns E, Souza V. Understanding the mechanisms behind the response of environmental perturbations in microbial mats: a metagenomic-network based approach. Submitted in Frontiers in Microbiology 
 
 
-
+<src="https://github.com/favicon.ico" width="48">
 # Computing MEBS in time  
-![Cycles in time|512x397,30%](./figures/MEBS_mats.png)
 [html version ](https://valdeanda.github.io/Time_series_mats/scripts/MebsInTime.html)
 
 
