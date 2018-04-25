@@ -12,6 +12,15 @@ ipython3 notebook
 ```
 The directory scripts contains all the steps required to compute  the main figures from the article in notebook, html and python format.
 
+### `Libraries version`
+In order to reproduce all the figures using the notebooks, the following libraries must be installed first with the corresponding versions 
+
++ Pandas version ==> 0.20.3 
++ Numpy ==> 1.13.3
++ Seaborn ==> 0.8.0
++ Plt ==> 1.13.3
++ Matplotlib ==> 2.02
+
 
 ###  `Figures`
 
@@ -22,9 +31,6 @@ The directory scripts contains all the steps required to compute  the main figur
 
 
 
-
-
-.......
 
 
 |Aim|Script|
