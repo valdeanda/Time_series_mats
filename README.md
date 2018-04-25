@@ -36,19 +36,12 @@ Run the notebook
 ipython3 notebook MebsInTime.ipynb
 ```
 
-
-
-
-
 ---
-
-
 
 
 ### `Barplot composition and logaritmic scale of taxonomic profile`
 
-<img src="https://valdeanda.github.io/Time_series_mats/figures/Barplot.png" width="256" height="256" align="left">
-
+<img src="https://valdeanda.github.io/Time_series_mats/figures/Barplot.png" width="256" height="256" align="right">
 Script available in  in [html](https://valdeanda.github.io/Time_series_mats/scripts/Bar_plots_composition.html) and [notebook](https://github.com/valdeanda/Time_series_mats/blob/master/scripts/Bar_plots_composition.ipynb) formats 
 
 Run the notebook 
