@@ -1,4 +1,4 @@
-  # Supplementary Information
+# Supplementary Information
 
 
 **De Anda V**, Zapata Peñasco I, Blaz J, Poot-Hernandez AC, Contreras Moreira B, Gonzales Laffite Marcos, Hernandez Rosales M, Gamez Tamariz N, Eguiarte Fruns E, Souza V. Understanding the mechanisms behind the response of environmental perturbations in microbial mats: a metagenomic-network based approach. Submitted in Frontiers in Microbiology 
@@ -25,7 +25,7 @@ In order to reproduce all the figures using the notebooks, the following librari
 ---
 
 
-<img src="https://valdeanda.github.io/Time_series_mats/figures/MEBS_mats.png" width="256" height="200" align="right">
+<img src="https://valdeanda.github.io/Time_series_mats/figures/MEBS_mats.png" width="200" height="150" align="right">
 
 ### `Main cycles with MEBS over time`
 
@@ -42,7 +42,7 @@ ipython3 notebook MebsInTime.ipynb
 
 ### `Barplot composition and logaritmic scale`
 
-<img src="https://valdeanda.github.io/Time_series_mats/figures/Barplot.png" width="256" height="150" align="right">
+<img src="https://valdeanda.github.io/Time_series_mats/figures/Barplot.png" width="200" height="150" align="right">
 
 Script available in [html](https://valdeanda.github.io/Time_series_mats/scripts/Bar_plots_composition.html) and [notebook](https://github.com/valdeanda/Time_series_mats/blob/master/scripts/Bar_plots_composition.ipynb) formats 
 
@@ -55,11 +55,13 @@ ipython3 notebook Bar_plots_composition.ipynb
 
 
 ### `Microbial mat core`
+
 Using [get_homologues](https://github.com/eead-csic-compbio/get_homologues)`
 
-<img src="https://valdeanda.github.io/Time_series_mats/figures/Mats_core.png" width="256" height="150" align="right">
+<img src="https://valdeanda.github.io/Time_series_mats/figures/Mats_core.png" width="200" height="150" align="right">
 
 Script available in [html](https://valdeanda.github.io/Time_series_mats/scripts/Core_bacteria.html) and [notebook](https://github.com/valdeanda/Time_series_mats/blob/master/scripts/Core_bacteria.ipynb) formats. 
+
 Run the notebook 
 
 ```bash
