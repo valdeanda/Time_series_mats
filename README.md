@@ -1,5 +1,10 @@
+<<<<<<< HEAD
   # Supplementary Information
+=======
+## Supplementary Information
+>>>>>>> fca05aa21b5ef9c5e82e84c440be6ffd78204825
 
+Repository that contain the main data and scripts to recompute the figures from: 
 
 **De Anda V**, Zapata Peñasco I, Blaz J, Poot-Hernandez AC, Contreras Moreira B, Gonzales Laffite Marcos, Hernandez Rosales M, Gamez Tamariz N, Eguiarte Fruns E, Souza V. Understanding the mechanisms behind the response of environmental perturbations in microbial mats: a metagenomic-network based approach. Submitted in Frontiers in Microbiology 
 To reproduce the figures first install [jupyter notebook](http://jupyter.org/install.html) and then clone the repository.  
@@ -73,7 +78,7 @@ ipython3 notebook Core_bacteria.ipynb
 
 ### `Biogeochemical cycles and Sulfur completeness`
 
-<img src="https://valdeanda.github.io/Time_series_mats/figures/Heatmap.cycles.uv.png" width="200" height="150" align="left">
+<img src="https://valdeanda.github.io/Time_series_mats/figures/Heatmap.cycles.uv.png" width="200" height="140" align="left">
 
 Script available in [html](https://valdeanda.github.io/Time_series_mats/scripts/Pfams_completeness.html) and [notebook](https://github.com/valdeanda/Time_series_mats/blob/master/scripts/Pfams_completeness.ipynb) formats.
 Run the notebook
