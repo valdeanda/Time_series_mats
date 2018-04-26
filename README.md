@@ -64,6 +64,11 @@ Run the notebook
 ipython3 notebook Core_bacteria.ipynb
 ```
 
+---
+
+
+
+
 ### `Biogeochemical cycles and Sulfur completeness`
 
 <img src="https://valdeanda.github.io/Time_series_mats/figures/Heatmap.cycles.uv.png" width="256" height="200" align="right">
@@ -74,6 +79,13 @@ Run the notebook
 ```bash
 ipython3 notebook Pfams_completeness.ipynb
 ```
+
+---
+
+
+
+
+
 
 
 
