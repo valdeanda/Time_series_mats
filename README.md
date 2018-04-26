@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-  # Supplementary Information
-=======
 ## Supplementary Information
->>>>>>> fca05aa21b5ef9c5e82e84c440be6ffd78204825
 
 Repository that contain the main data and scripts to recompute the figures from: 
 
