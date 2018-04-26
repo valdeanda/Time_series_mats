@@ -1,0 +1,28 @@
+# scripts/extract_pfam.pl call:
+# -matrixdir /home/val/src/Time_series_mats/data/matrix_pfams
+# PARAMS: COUNTPFAMONCEPERSEQ=1
+
+	3	1	2	5	4
+PF00198	61	120	42	103	89
+PF00244				1	4
+PF00389	140	94	58	99	94
+PF00725			23		
+PF01073			100		
+PF01257			54		
+PF02737			32		
+PF02826	264	220	105	258	274
+PF02829			1		
+PF03171			1		
+PF03475			2		
+PF04029		17	3		
+PF05635		6	30		
+PF06725			4		
+PF06983			3		
+PF08975			1		
+PF10417	32	24	16	35	32
+PF13532			4		
+PF13563			8		
+PF13640			3		
+PF13759			1		
+PF16078		14	6		
+PF16998		2		1	4
