@@ -1,4 +1,4 @@
- # Supplementary Information
+  # Supplementary Information
 
 
 **De Anda V**, Zapata Peñasco I, Blaz J, Poot-Hernandez AC, Contreras Moreira B, Gonzales Laffite Marcos, Hernandez Rosales M, Gamez Tamariz N, Eguiarte Fruns E, Souza V. Understanding the mechanisms behind the response of environmental perturbations in microbial mats: a metagenomic-network based approach. Submitted in Frontiers in Microbiology 
@@ -67,8 +67,6 @@ ipython3 notebook Core_bacteria.ipynb
 ---
 
 
-
-
 ### `Biogeochemical cycles and Sulfur completeness`
 
 <img src="https://valdeanda.github.io/Time_series_mats/figures/Heatmap.cycles.uv.png" width="256" height="200" align="left">
@@ -89,17 +87,3 @@ ipython3 notebook Pfams_completeness.ipynb
 
 
 
-
-
-
-
-
-
-
-# To generate the abundances profile from hmmsearch 
-Use the following script that is also implemented in [MEBS software](https://github.com/eead-csic-compbio/metagenome_Pfam_score/tree/master/scripts)
-
-```
- perl scripts/extract_pfam.pl -matrixdir matrix_pfam/ > data/test.pfams.tab 
-
-```
