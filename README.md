@@ -1,4 +1,4 @@
-# Supplementary Information
+ # Supplementary Information
 
 
 **De Anda V**, Zapata Peñasco I, Blaz J, Poot-Hernandez AC, Contreras Moreira B, Gonzales Laffite Marcos, Hernandez Rosales M, Gamez Tamariz N, Eguiarte Fruns E, Souza V. Understanding the mechanisms behind the response of environmental perturbations in microbial mats: a metagenomic-network based approach. Submitted in Frontiers in Microbiology 
@@ -55,7 +55,7 @@ ipython3 notebook Bar_plots_composition.ipynb
 ### `Microbial mat core`
 Using [get_homologues](https://github.com/eead-csic-compbio/get_homologues)`
 
-<img src="https://valdeanda.github.io/Time_series_mats/figures/Mats_core.png" width="256" height="200" align="right">
+<img src="https://valdeanda.github.io/Time_series_mats/figures/Mats_core.png" width="256" height="150" align="right">
 
 Script available in [html](https://valdeanda.github.io/Time_series_mats/scripts/Core_bacteria.html) and [notebook](https://github.com/valdeanda/Time_series_mats/blob/master/scripts/Core_bacteria.ipynb) formats. 
 Run the notebook 
@@ -71,7 +71,7 @@ ipython3 notebook Core_bacteria.ipynb
 
 ### `Biogeochemical cycles and Sulfur completeness`
 
-<img src="https://valdeanda.github.io/Time_series_mats/figures/Heatmap.cycles.uv.png" width="256" height="200" align="right">
+<img src="https://valdeanda.github.io/Time_series_mats/figures/Heatmap.cycles.uv.png" width="256" height="200" align="left">
 
 Script available in [html](https://valdeanda.github.io/Time_series_mats/scripts/Pfams_completeness.html) and [notebook](https://github.com/valdeanda/Time_series_mats/blob/master/scripts/Pfams_completeness.ipynb) formats.
 Run the notebook
