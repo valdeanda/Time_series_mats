@@ -40,7 +40,7 @@ ipython3 notebook MebsInTime.ipynb
 
 ### `Barplot composition and logaritmic scale`
 
-<img src="https://valdeanda.github.io/Time_series_mats/figures/Barplot.png" width="256" height="200" align="right">
+<img src="https://valdeanda.github.io/Time_series_mats/figures/Barplot.png" width="256" height="150" align="right">
 
 Script available in [html](https://valdeanda.github.io/Time_series_mats/scripts/Bar_plots_composition.html) and [notebook](https://github.com/valdeanda/Time_series_mats/blob/master/scripts/Bar_plots_composition.ipynb) formats 
 
