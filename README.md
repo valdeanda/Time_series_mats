@@ -1,16 +1,15 @@
-  # Supplementary Information
+# Supplementary Information
 
 
-De Anda V, Zapata Peñasco I, Blaz J, Poot-Hernandez AC, Contreras Moreira B, Gonzales Laffite Marcos, Hernandez Rosales M, Gamez Tamariz N, Eguiarte Fruns E, Souza V. Understanding the mechanisms behind the response of environmental perturbations in microbial mats: a metagenomic-network based approach. Submitted in Frontiers in Microbiology 
-To reproduce the figures first install [jupyter notebook](http://jupyter.org/install.html)  
-and then clone the repository.  
+**De Anda V**, Zapata Peñasco I, Blaz J, Poot-Hernandez AC, Contreras Moreira B, Gonzales Laffite Marcos, Hernandez Rosales M, Gamez Tamariz N, Eguiarte Fruns E, Souza V. Understanding the mechanisms behind the response of environmental perturbations in microbial mats: a metagenomic-network based approach. Submitted in Frontiers in Microbiology 
+To reproduce the figures first install [jupyter notebook](http://jupyter.org/install.html) and then clone the repository.  
 
 ```bash
 git clone https://github.com/valdeanda/Time_series_mats.git
 cd scripts 
 ipython3 notebook 
 ```
-The directory scripts contains all the steps required to compute  the main figures from the article in notebook, html and python format.
+The directory `scripts` contains all the steps required to compute the main figures from the article in notebook, html and python formats.
 
 ### `Libraries version`
 In order to reproduce all the figures using the notebooks, the following libraries must be installed first with the corresponding versions 
@@ -28,9 +27,9 @@ In order to reproduce all the figures using the notebooks, the following librari
 
 ### `Main cycles with MEBS over time`
 
-Script available in [html](https://valdeanda.github.io/Time_series_mats/scripts/MebsInTime.html) and  [notebook](https://github.com/valdeanda/Time_series_mats/scripts/MebsInTime.ipynb)  formats. 
+Script available in [html](https://valdeanda.github.io/Time_series_mats/scripts/MebsInTime.html) and  [notebook](https://github.com/valdeanda/Time_series_mats/blob/master/scripts/MebsInTime.ipynb) formats. 
 
-Run the notebook 
+Run the notebook within scripts folder 
 
 ```bash
 ipython3 notebook MebsInTime.ipynb
@@ -51,6 +50,20 @@ Run the notebook
 ipython3 notebook Bar_plots_composition.ipynb
 ```
 ---
+
+
+### `Microbial mat core with [get_homologues](https://github.com/eead-csic-compbio/get_homologues)`
+
+<img src="https://valdeanda.github.io/Time_series_mats/figures/Mats_core.png" width="256" height="200" align="right">
+
+Script available in [html](https://valdeanda.github.io/Time_series_mats/scripts/Core_bacteria.html) and [notebook](https://github.com/valdeanda/Time_series_mats/blob/master/scripts/Core_bacteria.ipynb) formats. 
+Run the notebook 
+
+```bash
+ipython3 notebook Core_bacteria.ipynb
+```
+
+
 
 
 
