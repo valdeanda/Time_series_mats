@@ -22,6 +22,8 @@ In order to reproduce all the figures using the notebooks, the following librari
 
 
 ###  Figures
+---
+
 
 <img src="https://valdeanda.github.io/Time_series_mats/figures/MEBS_mats.png" width="256" height="200" align="right">
 
