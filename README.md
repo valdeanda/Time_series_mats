@@ -1,4 +1,4 @@
- # Supplementary Information
+  # Supplementary Information
 
 
 **De Anda V**, Zapata Peñasco I, Blaz J, Poot-Hernandez AC, Contreras Moreira B, Gonzales Laffite Marcos, Hernandez Rosales M, Gamez Tamariz N, Eguiarte Fruns E, Souza V. Understanding the mechanisms behind the response of environmental perturbations in microbial mats: a metagenomic-network based approach. Submitted in Frontiers in Microbiology 
@@ -86,7 +86,18 @@ ipython3 notebook Pfams_completeness.ipynb
 
 
 
+### `Network motifs`
 
+<img src="https://valdeanda.github.io/Time_series_mats/figures/motifs.png" width="200" height="150" align="right">
+
+Script available in [html](https://valdeanda.github.io/Time_series_mats/scripts/Motifs.html) and [notebook](https://github.com/valdeanda/Time_series_mats/blob/master/scripts/Motifs.ipynb) formats.
+Run the notebook
+
+```bash
+ipython3 notebook Motifs.ipynb
+```
+
+--
 
 
 
