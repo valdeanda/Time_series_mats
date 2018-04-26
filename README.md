@@ -74,7 +74,7 @@ ipython3 notebook Core_bacteria.ipynb
 
 ### `Biogeochemical cycles and Sulfur completeness`
 
-<img src="https://valdeanda.github.io/Time_series_mats/figures/Heatmap.cycles.uv.png" width="200" height="140" align="left">
+<img src="https://valdeanda.github.io/Time_series_mats/figures/Heatmap.cycles.uv.png" width="200" height="140" align="right">
 
 Script available in [html](https://valdeanda.github.io/Time_series_mats/scripts/Pfams_completeness.html) and [notebook](https://github.com/valdeanda/Time_series_mats/blob/master/scripts/Pfams_completeness.ipynb) formats.
 Run the notebook
@@ -97,8 +97,7 @@ Run the notebook
 ```bash
 ipython3 notebook Motifs.ipynb
 ```
-
---
+---
 
 
 
