@@ -1,0 +1,11 @@
+	data/Pielou_genus.txt
+	data/Shanon_genus.txt
+	data/Shanon_pfam.txt
+	data/pielou.pfam.txt
+	scripts/.ipynb_checkpoints/Core_bacteria-checkpoint.ipynb
+	scripts/.ipynb_checkpoints/Ecological_index-checkpoint.ipynb
+	scripts/.ipynb_checkpoints/MebsInTime-checkpoint.ipynb
+	scripts/.ipynb_checkpoints/Motifs-checkpoint.ipynb
+	scripts/.ipynb_checkpoints/Pfams_completeness-checkpoint.ipynb
+	scripts/Ecological_index.html
+
