@@ -1,0 +1,13 @@
+sample_ID	site	year	samp_period	water_level	temp	sp_comd	salt	pH	season_year	wl_order season
+S1	A	y2012	nov	none	NA	NA	NA	NA	Autumn_12	1	Autumn
+S2	B	y2012	nov	none	NA	NA	NA	NA	Autumn_12	1	Autumn
+S3	C	y2012	nov	none	NA	NA	NA	NA	Autumn_12	1	Autumn
+S4	A	y2013	may	low	20	8.36	4.7	8.6	Spring_13	2	Spring
+S5	B	y2013	may	low	20.5	8.3	4.69	8.61	Spring_13	2	Spring
+S6	C	y2013	may	low	20.3	8.3	4.71	8.59	Spring_13	2	Spring
+S7	A	y2013	oct	high	26.5	6.53	3.66	7.9	Autumn_13	3	Autumn
+S8	B	y2013	oct	high	26.16	6.4	3.56	8.06	Autumn_13	3	Autumn
+S9	C	y2013	oct	high	25.42	6.478	3.59	8.07	Autumn_13	3	Autumn
+S10	A	y2014	may	medium	24.99	11.59	6.62	8.09	Spring_14	4	Spring
+S11	B	y2014	may	medium	25.45	11.58	6.61	8.31	Spring_14	4	Spring
+S12	C	y2014	may	medium	25.22	11.6	6.61	8.31	Spring_14	4	Spring
