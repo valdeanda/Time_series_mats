@@ -2,9 +2,7 @@
 
 Repository that contain the main data and scripts to recompute the figures from: 
 
-**De Anda V**, Zapata Peñasco I, Blaz J, Poot-Hernandez AC, Contreras Moreira B, Gonzales Laffite Marcos, Hernandez Rosales M, Gamez Tamariz N, Eguiarte Fruns E, Souza V. Understanding the mechanisms behind the response of environmental perturbations in microbial mats: a metagenomic-network based approach. Submitted in Frontiers in Microbiology.
-
-
+**De Anda V**, Zapata Peñasco I, Blaz J, Poot-Hernandez AC, Contreras Moreira B, Gonzales Laffite Marcos, Hernandez Rosales M, Gamez Tamariz N, Eguiarte Fruns E, Souza V. **Understanding the mechanisms behind the response of environmental perturbations in microbial mats: a metagenomic-network based approach.** Submitted in Frontiers in Microbiology.
 
 To reproduce the figures first install [jupyter notebook](http://jupyter.org/install.html) and then clone the repository.  
 
@@ -13,10 +11,9 @@ git clone https://github.com/valdeanda/Time_series_mats.git
 cd scripts 
 ipython3 notebook 
 ```
-The directory `scripts` contains all the steps required to compute the main figures from the article in jupyter notebooks.
 
 ### `Libraries version`
-In order to reproduce all the figures using the notebooks, the following libraries must be installed first with the corresponding versions 
+In order to reproduce all the figures using the notebooks, the following libraries must be installed first 
 
 `Python libraries`
 + Pandas version ==> 0.20.3 
@@ -31,18 +28,16 @@ In order to reproduce all the figures using the notebooks, the following librari
 + vegan 
 
 
-
 ###  Figures
 ---
+
+### `Main cycles with MEBS over time`
 
 
 <img src="https://valdeanda.github.io/Time_series_mats/figures/MEBS_mats.png" width="200" height="150" align="right">
 
-### `Main cycles with MEBS over time`
-
 Script available in  [notebook](https://github.com/valdeanda/Time_series_mats/blob/master/scripts/MebsInTime.ipynb) format. 
 
-Run the notebook within scripts folder 
 
 ```bash
 ipython3 notebook MebsInTime.ipynb
