@@ -61,7 +61,7 @@ ipython3 notebook Bar_plots_composition.ipynb
 
 ### `Microbial mat core`
 
-Using [get_homologues](https://github.com/eead-csic-compbio/get_homologues)`
+Using [get_homologues](https://github.com/eead-csic-compbio/get_homologues)
 
 <img src="https://valdeanda.github.io/Time_series_mats/figures/Mats_core.png" width="200" height="150" align="right">
 
