@@ -1,0 +1,61 @@
+from	to	value 	color
+Oscillatoriales unclassified	Aspergillaceae	-0.000661633791245177	gray
+Oscillatoriales unclassified	Prochlorotrichaceae	-0.000467922230649773	gray
+Bacillaceae	Aspergillaceae	-0.000464191892188703	gray
+Rhodobacteraceae	Aspergillaceae	-0.000434134881705902	gray
+Oscillatoriales unclassified	Rivulariaceae	-0.0003816409129112	gray
+Oscillatoriales unclassified	Saprospiraceae	-0.000370836355304704	gray
+Rhodobacteraceae	Prochlorotrichaceae	-0.000340342027403236	gray
+Oscillatoriales unclassified	Francisellaceae	-0.000335744588042801	gray
+Bacteria unclassified	Aspergillaceae	-0.00032915141399335	gray
+Bacillaceae	Prochlorotrichaceae	-0.000327479010040337	gray
+Oscillatoriales unclassified	Microchaetaceae	-0.000317858953330415	gray
+Oscillatoriales unclassified	Oscillochloridaceae	-0.000314901989669863	gray
+Oscillatoriales unclassified	Bacillaceae	-0.000284141075261113	gray
+Oscillatoriales unclassified	Stigonematales unclassified	-0.000283122252633106	gray
+Rhodobacteraceae	Saprospiraceae	-0.000282598721302533	gray
+Oscillatoriales unclassified	Leotiomyceta unclassified	-0.000282005598529869	gray
+Rhodobacteraceae	Oscillatoriales unclassified	-0.000275024967028544	gray
+Oscillatoriales unclassified	Heliobacteriaceae	-0.000272928356252401	gray
+Chroococcales unclassified	Aspergillaceae	-0.000268615081465523	gray
+Bacillaceae	Rivulariaceae	-0.000267883475120844	gray
+Oscillatoriales unclassified	Thiotrichaceae	-0.000261754333991732	gray
+Bacillaceae	Saprospiraceae	-0.000259220536000652	gray
+Desulfobacteraceae	Unclassified Verrucomicrobia unclassified	-0.000251968706975315	gray
+Oscillatoriales unclassified	Chroococcales unclassified	-0.00024757579619161	gray
+Bacillaceae	Oscillatoriales unclassified	-0.000246759188916807	gray
+Rhodobacteraceae	Rivulariaceae	-0.000245047495710073	gray
+Oscillatoriales unclassified	Gloeobacterales unclassified	-0.000239683870030809	gray
+Bacillaceae	Francisellaceae	-0.000236030491723751	gray
+Bacteria unclassified	Prochlorotrichaceae	-0.000231684948965514	gray
+Desulfobacteraceae	Candidatus Parcubacteria unclassified	-0.000229029865264166	gray
+Rhodobacteraceae	Stigonematales unclassified	-0.000224763310166814	gray
+Rhodobacteraceae	Oscillochloridaceae	-0.000224434283715406	gray
+Bacillaceae	Microchaetaceae	-0.000222850673088727	gray
+Rhodobacteraceae	Cyclobacteriaceae	-0.000222495171725451	gray
+Rhodobacteraceae	Chroococcales unclassified	-0.000220513233026574	gray
+Bacillaceae	Oscillochloridaceae	-0.000220498379749727	gray
+Oscillatoriales unclassified	Cyanobacteria unclassified	-0.000218754042022554	gray
+Oscillatoriales unclassified	Flammeovirgaceae	-0.000218140794832264	gray
+Rhodobacteraceae	Thiotrichaceae	-0.000217953886924679	gray
+Oscillatoriales unclassified	Chloroflexineae unclassified	-0.000217475958936539	gray
+Rhodobacteraceae	Microchaetaceae	-0.000214922558254272	gray
+Oscillatoriales unclassified	Chloroflexales unclassified	-0.000208561213532428	gray
+Oscillatoriales unclassified	Cyclobacteriaceae	-0.000208486222484748	gray
+Oscillatoriales unclassified	Thermoanaerobacterales Family III. Incertae Sedis	-0.000205943235162039	gray
+Bacillaceae	Candidatus Parcubacteria unclassified	0.000208870053452048	salmon
+Rhodobacteraceae	Candidatus Parcubacteria unclassified	0.000213615988664377	salmon
+Desulfobacteraceae	Bacillaceae	0.000221043644276802	salmon
+Desulfobacteraceae	Heliobacteriaceae	0.00022432157303531	salmon
+Desulfobacteraceae	Gloeobacterales unclassified	0.000236325071028273	salmon
+Desulfobacteraceae	Oscillochloridaceae	0.000242521095575687	salmon
+Desulfobacteraceae	Microchaetaceae	0.000253315981027056	salmon
+Desulfobacteraceae	Leotiomyceta unclassified	0.000253722327497952	salmon
+Desulfobacteraceae	Oscillatoriales unclassified	0.00026312687102688	salmon
+Oscillatoriales unclassified	Unclassified Verrucomicrobia unclassified	0.000269401863049533	salmon
+Desulfobacteraceae	Saprospiraceae	0.000272184253566925	salmon
+Desulfobacteraceae	Francisellaceae	0.000286921411830897	salmon
+Oscillatoriales unclassified	Candidatus Parcubacteria unclassified	0.000298329537388028	salmon
+Desulfobacteraceae	Rivulariaceae	0.000313677710221127	salmon
+Desulfobacteraceae	Prochlorotrichaceae	0.000355348967595178	salmon
+Desulfobacteraceae	Aspergillaceae	0.000536986421442803	salmon

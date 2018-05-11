@@ -1,0 +1,37 @@
+from 	to 	value 	color 
+Bacillaceae	Aspergillaceae	-0.000544173561842526	grey
+Bacillaceae	Francisellaceae	-0.000271379246379575	 gray
+Bacillaceae	Unclassified Gammaproteobacteria unclassified	-0.000270453595802457	 gray
+Bacillaceae	Leotiomyceta unclassified	-0.000247586710139923	 gray
+Desulfobacteraceae	Aspergillaceae	-0.000243505544215902	 gray
+Bacillaceae	Nitriliruptoraceae	-0.000226056642250968	 gray
+Bacillaceae	Ardenticatenaceae	-0.000220981131999132	 gray
+Bacillaceae	Verrucomicrobiales unclassified	-0.000218080159336237	 gray
+Rhodobacteraceae	Patulibacteraceae	-0.000216221641422506	 gray
+Bacillaceae	Roseiflexaceae	-0.000214412240222586	 gray
+Bacillaceae	Competibacteraceae	-0.000207897555655885	 gray
+Bacillaceae	Microchaetaceae	-0.000206567563684693	 gray
+Rhodobacteraceae	Microthrixaceae	-0.000196124001832138	 gray
+Bacillaceae	Kordiimonadaceae	-0.000190988474156278	 gray
+Rhodobacteraceae	Unclassified Verrucomicrobia unclassified	-0.00018719774163505	 gray
+Bacillaceae	Methylothermaceae	-0.000186103842117201	 gray
+Bacillaceae	Saprospiraceae	-0.000167405043919905	 gray
+Proteobacteria unclassified	Aspergillaceae	-0.000167291633227814	 gray
+Bacillaceae	Oscillochloridaceae	-0.000163073190015517	 gray
+Bacteria unclassified	Aspergillaceae	-0.000161186720200964	 gray
+Aspergillaceae	Unclassified Gammaproteobacteria unclassified	-0.00015959884148969	 gray
+Aspergillaceae	Bacillaceae	-0.00015820126060848	 gray
+Aspergillaceae	Francisellaceae	-0.000157728267862926	 gray
+Bacillaceae	Listeriaceae	-0.000154235934642845	 gray
+Bacillaceae	Trueperaceae	-0.000150255913109657	 gray
+Bacillaceae	Symbiobacteriaceae	-0.000150015807784559	 gray
+Aspergillaceae	Leotiomyceta unclassified	-0.000145082323973665	 gray
+Aspergillaceae	Marinilabiliaceae	0.000145747020783177	Salmon
+Rhodobacteraceae	Synergistaceae	0.000147902859083468	Salmon
+Bacillaceae	Syntrophaceae	0.000148665063747029	Salmon
+Rhodobacteraceae	Marinifilaceae	0.000181320616596453	Salmon
+Rhodobacteraceae	Rivulariaceae	0.000199434244577929	Salmon
+Rhodobacteraceae	Chlorobiaceae	0.000202859877247475	Salmon
+Bacillaceae	Hypocreaceae	0.000216929327641704	Salmon
+Bacillaceae	Marinilabiliaceae	0.000238821962172597	Salmon
+Rhodobacteraceae	Marinilabiliaceae	0.000281080054888523	Salmon
