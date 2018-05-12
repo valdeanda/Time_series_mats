@@ -1,9 +1,12 @@
 ## Supplementary Information
 
-<img src="https://valdeanda.github.io/Time_series_mats/figures/b_oct13.jpg" width="250" height="250" align="center">
 
----
-
+<sub style="font-size: 12px !important;">
+Microbial mats from  Cuatro Cienegas".
+</sub>
+<p align="center">
+  <img width="300" height="300" src="https://valdeanda.github.io/Time_series_mats/figures/b_oct13.jpg">
+</p>
 
 
 Repository that contain the main data and scripts to recompute the figures from: 
