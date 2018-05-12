@@ -105,7 +105,9 @@ ipython3 notebook Motifs.ipynb
 ---
 ### `Networks`
 
-<img src="https://valdeanda.github.io/Time_series_mats/figures/SiteAnetworkvis.PNG,  width="200" height="150" align="right"">
+<img src="https://valdeanda.github.io/Time_series_mats/figures/SiteAnetworkvis.PNG",  width="200" height="150" align="right">
 
-The scritp to customize the Networks is available in (R)[finalToPlot.R]
+The script  is available in [R](https://github.com/valdeanda/Time_series_mats/blob/master/scripts/finalToPlot.R)
+
+
 ---
