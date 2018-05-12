@@ -118,6 +118,3 @@ ipython3 notebook Pfams_completeness.ipynb
 
 The script  is available in [R](https://github.com/valdeanda/Time_series_mats/blob/master/scripts/finalToPlot.R)
 
-
----
-
