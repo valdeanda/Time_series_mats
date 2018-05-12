@@ -1,6 +1,9 @@
 ## Supplementary Information
 
-![Microbial mats](./figures/b_oct13.jpg) 
+<img src="https://valdeanda.github.io/Time_series_mats/figures/b_oct13.jpg" width="250" height="250" align="center">
+
+---
+
 
 
 Repository that contain the main data and scripts to recompute the figures from: 
