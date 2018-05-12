@@ -12,7 +12,10 @@ cd scripts
 ipython3 notebook 
 ```
 
-### `Libraries version`
+### `Libraries version
+
+---
+
 In order to reproduce all the figures using the notebooks, the following libraries must be installed first 
 
 `Python libraries`
@@ -32,7 +35,18 @@ In order to reproduce all the figures using the notebooks, the following librari
 
 
 ###  Figures
+
 ---
+
+### `Networks`
+
+<img src="https://valdeanda.github.io/Time_series_mats/figures/networkA.png" width="200" height="150" align="right">
+
+The script  is available in [R](https://github.com/valdeanda/Time_series_mats/blob/master/scripts/finalToPlot.R)
+
+
+---
+
 
 ### `Network motifs`
 
@@ -44,12 +58,6 @@ Run the notebook
 ```bash
 ipython3 notebook Motifs.ipynb
 ```
----
-### `Networks`
-
-<img src="https://valdeanda.github.io/Time_series_mats/figures/networkA.png" width="200" height="150" align="right">
-
-The script  is available in [R](https://github.com/valdeanda/Time_series_mats/blob/master/scripts/finalToPlot.R)
 
 
 ---
@@ -80,6 +88,7 @@ Run the notebook
 ```bash
 ipython3 notebook Bar_plots_composition.ipynb
 ```
+
 ---
 
 
