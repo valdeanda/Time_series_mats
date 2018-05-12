@@ -16,13 +16,12 @@ ipython3 notebook
 
 ---
 
-In order to reproduce all the figures the following libraries must be installed first 
+In order to reproduce all the figures the following libraries and packages must be installed first 
 
-`Python libraries`
+`Python`
 + Pandas >= 0.20.3 
 + Numpy >= 1.13.3
 + Seaborn >= 0.8.0
-+ Plt >= 1.13.3
 + Matplotlib >= 2.02
 
 `R packages`
@@ -35,7 +34,6 @@ In order to reproduce all the figures the following libraries must be installed 
 
 
 ###  Figures
-
 
 
 ### `Network motifs`
