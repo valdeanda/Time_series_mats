@@ -2,21 +2,21 @@ install.packages("visNetwork")
 #devtools::install_github("datastorm-open/visNetwork") #for development version
 library(visNetwork)
 
-setwd("D:/2 Escritorio/Networks_figures")
+
 
 
 
 #Read Edges
 
-edgesA<-read.table("edgesA.txt", header=TRUE,sep="\t")
-edgesB<-read.table("edgesB.txt", header=TRUE,sep="\t")
-edgesC<-read.table("edgesC.txt", header=TRUE,sep="\t")
+edgesA<-read.table("../data/edgesA.txt", header=TRUE,sep="\t")
+edgesB<-read.table("../data/edgesB.txt", header=TRUE,sep="\t")
+edgesC<-read.table("../data/edgesC.txt", header=TRUE,sep="\t")
 
 #Read Nodes 
 
-nodesA<-read.table("nodesA.txt", header = TRUE, sep="\t")
-nodesB<-read.table("nodesB.txt", header = TRUE, sep="\t")
-nodesC<-read.table("nodesC.txt", header = TRUE, sep="\t")
+nodesA<-read.table("../data/nodesA.txt", header = TRUE, sep="\t")
+nodesB<-read.table("../data/nodesB.txt", header = TRUE, sep="\t")
+nodesC<-read.table("../data/nodesC.txt", header = TRUE, sep="\t")
 
 
 #to html customizables 
