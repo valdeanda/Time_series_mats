@@ -1,4 +1,5 @@
 theme: jekyll-theme-minimal
-title: Microbial mats from Cuatro Cienegas: a metagenomic-network based approach 
+title: 'Microbial mats from Cuatro Cienegas: a metagenomic-network based approach'
+author : ' Valerie De Anda'
 logo: https://valdeanda.github.io/Time_series_mats/figures/b_oct13.jpg
 show_downloads: true
