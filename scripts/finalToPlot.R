@@ -2,10 +2,6 @@ install.packages("visNetwork")
 #devtools::install_github("datastorm-open/visNetwork") #for development version
 library(visNetwork)
 
-
-
-
-
 #Read Edges
 
 edgesA<-read.table("../data/edgesA.txt", header=TRUE,sep="\t")
@@ -64,7 +60,4 @@ siteC_network<-visNetwork(nodesC,edgesC, height = "700px", width = "100%",main =
   visConfigure(enabled=TRUE)
 siteC_network
 visSave(siteB_network, file = "networkC.html")
-
-
-
 
