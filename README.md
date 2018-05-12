@@ -1,16 +1,5 @@
 ## Supplementary Information
 
-
-<sub style="font-size: 12px !important;">
-Microbial mats from  Cuatro Cienegas".
-</sub>
-<p align="center">
-  <img width="300" height="300" src="https://valdeanda.github.io/Time_series_mats/figures/b_oct13.jpg">
-</p>
-
-
-
-
 Repository that contain the main data and scripts to recompute the figures from: 
 
 **De Anda V**, Zapata Peñasco I, Blaz J, Poot-Hernandez AC, Contreras Moreira B, Gonzales Laffite Marcos, Hernandez Rosales M, Gamez Tamariz N, Eguiarte Fruns E, Souza V. **Understanding the mechanisms behind the response of environmental perturbations in microbial mats: a metagenomic-network based approach.** Submitted in Frontiers in Microbiology.Research Topic [Characterizing Modern Microbialites and The Geobiological Processes Underlying Their Formation](https://www.frontiersin.org/research-topics/5694/characterizing-modern-microbialites-and-the-geobiological-processes-underlying-their-formation)
