@@ -2,7 +2,7 @@
 
 Repository that contain the main data and scripts to recompute the figures from: 
 
-**De Anda V**, Zapata Peñasco I, Blaz J, Poot-Hernandez AC, Contreras Moreira B, Gonzales Laffite Marcos, Hernandez Rosales M, Gamez Tamariz N, Eguiarte Fruns E, Souza V. **Understanding the mechanisms behind the response of environmental perturbations in microbial mats: a metagenomic-network based approach.** Submitted in Frontiers in Microbiology.
+**De Anda V**, Zapata Peñasco I, Blaz J, Poot-Hernandez AC, Contreras Moreira B, Gonzales Laffite Marcos, Hernandez Rosales M, Gamez Tamariz N, Eguiarte Fruns E, Souza V. **Understanding the mechanisms behind the response of environmental perturbations in microbial mats: a metagenomic-network based approach.** Submitted in Frontiers in Microbiology.Research Topic [Characterizing Modern Microbialites and The Geobiological Processes Underlying Their Formation](https://www.frontiersin.org/research-topics/5694/characterizing-modern-microbialites-and-the-geobiological-processes-underlying-their-formation)
 
 To reproduce the figures first install [jupyter notebook](http://jupyter.org/install.html) and then clone the repository.  
 
@@ -19,11 +19,11 @@ ipython3 notebook
 In order to reproduce all the figures using the notebooks, the following libraries must be installed first 
 
 `Python libraries`
-+ Pandas version ==> 0.20.3 
-+ Numpy ==> 1.13.3
-+ Seaborn ==> 0.8.0
-+ Plt ==> 1.13.3
-+ Matplotlib ==> 2.02
++ Pandas >= 0.20.3 
++ Numpy >= 1.13.3
++ Seaborn >= 0.8.0
++ Plt >= 1.13.3
++ Matplotlib >= 2.02
 
 `R packages`
 + Phyloseq
