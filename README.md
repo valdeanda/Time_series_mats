@@ -12,11 +12,11 @@ cd scripts
 ipython3 notebook 
 ```
 
-### `Libraries version
+### `Requirements`
 
 ---
 
-In order to reproduce all the figures using the notebooks, the following libraries must be installed first 
+In order to reproduce all the figures the following libraries must be installed first 
 
 `Python libraries`
 + Pandas >= 0.20.3 
