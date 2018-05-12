@@ -22,10 +22,13 @@ In order to reproduce all the figures using the notebooks, the following librari
 + Plt ==> 1.13.3
 + Matplotlib ==> 2.02
 
-`R libraries`
+`R packages`
 + Phyloseq
 + ggplot2
 + vegan 
++ pvclust
++ devtools 
++ fpc
 
 
 ###  Figures
@@ -89,7 +92,6 @@ ipython3 notebook Pfams_completeness.ipynb
 
 ---
 
-
 ### `Network motifs`
 
 <img src="https://valdeanda.github.io/Time_series_mats/figures/motifs.png" width="200" height="150" align="right">
@@ -101,7 +103,8 @@ Run the notebook
 ipython3 notebook Motifs.ipynb
 ```
 ---
+### `Networks`
 
+<img src="https://valdeanda.github.io/Time_series_mats/figures/SiteA.html">
 
-
-
+The scritp to customize the Networks is available in (R)[finalToPlot.R]
