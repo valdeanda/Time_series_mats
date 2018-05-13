@@ -108,7 +108,20 @@ Script available in  [notebook](https://github.com/valdeanda/Time_series_mats/bl
 Run the notebook
 
 ```bash
-ipython3 notebook Pfams_completeness.ipynb
+ipython3 notebook completeness.ipynb
+```
+
+
+
+### `Marker Pfams `
+
+<img src="https://github.com/valdeanda/Time_series_mats/blob/master/figures/marker.genes1.heatmap.png" width="200" height="140" align="right">
+
+Script available in  [notebook](https://github.com/valdeanda/Time_series_mats/blob/master/scripts/Pfams_markers.ipynb) format.
+Run the notebook
+
+```bash
+ipython3 notebook Pfam_markers.completeness.ipynb
 ```
 
 ---
