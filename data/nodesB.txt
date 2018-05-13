@@ -1,0 +1,50 @@
+id 	label 	Domain	Phylum 	Class 	group 	shape  	value 
+Nitriliruptoraceae	Nitriliruptoraceae	Bacteria	Actinobacteria	Nitriliruptoria	1	dot	0.00028529042565331506
+Dermatophilaceae	Dermatophilaceae	Bacteria	Actinobacteria	Actinobacteria	1	dot	0.00012058999969164886
+Propionibacteriales unclassified	Propionibacteriales unclassified	Bacteria	Actinobacteria	Actinobacteria	1	dot	0.0002114112664131735
+Patulibacteraceae	Patulibacteraceae	Bacteria	Actinobacteria	Thermoleophilia	1	dot	0.0003456841272963503
+Rubrobacteraceae	Rubrobacteraceae	Bacteria	Actinobacteria	Rubrobacteria	1	dot	0.0008662615811990677
+Cryptosporangiaceae	Cryptosporangiaceae	Bacteria	Actinobacteria	Actinobacteria	1	dot	0.00020900825582610512
+Aspergillaceae	Aspergillaceae	Fungi	Ascomycota	Eurotiomycetes	2	diamond	0.006453129898630996
+Leotiomyceta unclassified	Leotiomyceta unclassified	Fungi	Ascomycota		2	diamond	0.00010450412791305256
+FCB group unclassified	FCB group unclassified	Bacteria	Bacteria Unclassified		3	dot	0.0006824914145753093
+Marinifilaceae	Marinifilaceae	Bacteria	Bacteroidetes	Bacteroidia	4	dot	0.00019970329795732054
+Saprospiraceae	Saprospiraceae	Bacteria	Bacteroidetes	Sphingobacteriia	4	dot	0.002882915056247084
+Candidate division Zixibacteria unclassified	Candidate division Zixibacteria unclassified	Bacteria	Candidate division Zixibacteria		5	dot	0.0007585745772186771
+Candidatus Berkelbacteria unclassified	Candidatus Berkelbacteria unclassified	Bacteria	Candidatus Berkelbacteria		6	dot	0.00012058999969164886
+Candidatus Kaiserbacteria unclassified	Candidatus Kaiserbacteria unclassified	Bacteria	Candidatus Kaiserbacteria		7	dot	0.0002697090419486292
+Candidatus Saccharibacteria unclassified	Candidatus Saccharibacteria unclassified	Bacteria	Candidatus Saccharibacteria		8	dot	0.00012779903145285394
+Simkaniaceae	Simkaniaceae	Bacteria	Chlamydiae	Chlamydiia	9	dot	0.00014264521282665753
+Ardenticatenaceae	Ardenticatenaceae	Bacteria	Chloroflexi	Ardenticatenia	10	dot	0.0008477280356840157
+Thermomicrobia unclassified	Thermomicrobia unclassified	Bacteria	Chloroflexi	Thermomicrobia	10	dot	0.00022590570015810075
+Chrysiogenaceae	Chrysiogenaceae	Bacteria	Chrysiogenetes	Chrysiogenetes	11	dot	0.0005989555498375069
+Rivulariaceae	Rivulariaceae	Bacteria	Cyanobacteria		12	dot	0.00017117425539198904
+Pleurocapsales unclassified	Pleurocapsales unclassified	Bacteria	Cyanobacteria		12	dot	0.0003114164576315782
+Methanomicrobia unclassified	Methanomicrobia unclassified	Archaea	Euryarchaeota	Methanomicrobia	13	square	0.00015136546911922853
+Natrialbaceae	Natrialbaceae	Archaea	Euryarchaeota	Halobacteria	13	square	0.0005091410195734377
+Methanosarcinaceae	Methanosarcinaceae	Archaea	Euryarchaeota	Methanomicrobia	13	square	0.022089915366245223
+Halanaerobiaceae	Halanaerobiaceae	Bacteria	Firmicutes	Clostridia	14	dot	0.09493013783930482
+Symbiobacteriaceae	Symbiobacteriaceae	Bacteria	Firmicutes	Clostridia	14	dot	0.0011316244268980832
+Bacillaceae	Bacillaceae	Bacteria	Firmicutes	Bacilli	14	dot	0.012848898015599386
+Heliobacteriaceae	Heliobacteriaceae	Bacteria	Firmicutes	Clostridia	14	dot	0.000182882223847842
+Fusobacteriaceae	Fusobacteriaceae	Bacteria	Fusobacteria	Fusobacteriia	15	dot	0.0006364642168816795
+Nitrospinaceae	Nitrospinaceae	Bacteria	Nitrospinae	Nitrospinia	16	dot	0.0004341023834308066
+Omnitrophica unclassified	Omnitrophica unclassified	Bacteria	Omnitrophica		17	dot	0.0004928599838907853
+Phycodnaviridae	Phycodnaviridae	Viruses	Phycodnaviridae		18	ellipse	0.00011411617026132602
+Rhodobacteraceae	Rhodobacteraceae	Bacteria	Proteobacteria	Alphaproteobacteria	19	dot	0.47989156993806903
+Desulfobacteraceae	Desulfobacteraceae	Bacteria	Proteobacteria	Deltaproteobacteria	19	dot	0.5387385031892556
+Chromatiaceae	Chromatiaceae	Bacteria	Proteobacteria	Gammaproteobacteria	19	dot	0.06066681744306568
+Thiotrichaceae	Thiotrichaceae	Bacteria	Proteobacteria	Gammaproteobacteria	19	dot	0.0003708775533493096
+Nannocystaceae	Nannocystaceae	Bacteria	Proteobacteria	Deltaproteobacteria	19	dot	0.009723134461500544
+Myxococcales unclassified	Myxococcales unclassified	Bacteria	Proteobacteria	Deltaproteobacteria	19	dot	0.021583184493272907
+Sandaracinaceae	Sandaracinaceae	Bacteria	Proteobacteria	Deltaproteobacteria	19	dot	0.004502625152934946
+Pasteurellaceae	Pasteurellaceae	Bacteria	Proteobacteria	Gammaproteobacteria	19	dot	0.000406650364575296
+Desulfohalobiaceae	Desulfohalobiaceae	Bacteria	Proteobacteria	Deltaproteobacteria	19	dot	0.022985201221202716
+Ferrimonadaceae	Ferrimonadaceae	Bacteria	Proteobacteria	Gammaproteobacteria	19	dot	0.00015136546911922853
+Gallionellaceae	Gallionellaceae	Bacteria	Proteobacteria	Betaproteobacteria	19	dot	0.0001306301598913157
+Synergistales unclassified	Synergistales unclassified	Bacteria	Synergistetes	Synergistia	20	dot	0.00033025324434633307
+Thermotogaceae	Thermotogaceae	Bacteria	Thermotogae	Thermotogae	21	dot	0.000382077190451466
+Kosmotogaceae	Kosmotogaceae	Bacteria	Thermotogae	Thermotogae	21	dot	0.002058370639628382
+Unclassified Verrucomicrobia unclassified	Unclassified Verrucomicrobia unclassified	Bacteria	Verrucomicrobia		22	dot	0.004023408924652524
+Verrucomicrobia unclassified	Verrucomicrobia unclassified	Bacteria	Verrucomicrobia		22	dot	0.014620974318213159
+Verrucomicrobia subdivision 3	Verrucomicrobia subdivision 3	Bacteria	Verrucomicrobia	Verrucomicrobiae	22	dot	0.0008683128441572597

@@ -1,0 +1,52 @@
+from 	to 	value 	color 
+Rhodobacteraceae	Ardenticatenaceae	-0.000348653724895868	gray
+Rhodobacteraceae	Thiotrichaceae	-0.000273694615113046	gray
+Rhodobacteraceae	Nitriliruptoraceae	-0.000251649015225368	gray
+Rhodobacteraceae	Nannocystaceae	-0.000246759459539342	gray
+Desulfobacteraceae	Aspergillaceae	-0.000239398661778078	gray
+Desulfobacteraceae	Unclassified Verrucomicrobia unclassified	-0.000223837313599853	gray
+Rhodobacteraceae	Marinifilaceae	-0.000221681377818419	gray
+Rhodobacteraceae	Rivulariaceae	-0.000208731639851113	gray
+Rhodobacteraceae	Verrucomicrobia unclassified	-0.000203190855577953	gray
+Rhodobacteraceae	Simkaniaceae	-0.000193415238518484	gray
+Rhodobacteraceae	Myxococcales unclassified	-0.000190233964515109	gray
+Rhodobacteraceae	Pleurocapsales unclassified	-0.000183852520585217	gray
+Rhodobacteraceae	Thermomicrobia unclassified	-0.000182498676701512	gray
+Rhodobacteraceae	Phycodnaviridae	-0.000174670676843941	gray
+Rhodobacteraceae	Fusobacteriaceae	-0.000174057694207412	gray
+Rhodobacteraceae	Candidatus Saccharibacteria unclassified	-0.000172521889772505	gray
+Halanaerobiaceae	Aspergillaceae	-0.000170910176585875	gray
+Desulfobacteraceae	Saprospiraceae	-0.000168346583995182	gray
+Rhodobacteraceae	Sandaracinaceae	-0.000164239296358847	gray
+Rhodobacteraceae	Thermotogaceae	-0.00016048107897815	gray
+Halanaerobiaceae	Unclassified Verrucomicrobia unclassified	-0.000159346503520883	gray
+Rhodobacteraceae	Candidate division Zixibacteria unclassified	-0.000158749307027195	gray
+Rhodobacteraceae	Omnitrophica unclassified	-0.000156410249372719	gray
+Rhodobacteraceae	Candidatus Kaiserbacteria unclassified	0.000140754082124877	salmon
+Rhodobacteraceae	Pasteurellaceae	0.00014092885947709	salmon
+Rhodobacteraceae	FCB group unclassified	0.000143036539990754	salmon
+Rhodobacteraceae	Desulfohalobiaceae	0.000145717042815943	salmon
+Chromatiaceae	Aspergillaceae	0.000146669733564886	salmon
+Rhodobacteraceae	Candidatus Berkelbacteria unclassified	0.000153207677376278	salmon
+Rhodobacteraceae	Dermatophilaceae	0.000153207775032895	salmon
+Rhodobacteraceae	Verrucomicrobia subdivision 3	0.000174639941547001	salmon
+Rhodobacteraceae	Synergistales unclassified	0.000180722205464644	salmon
+Rhodobacteraceae	Symbiobacteriaceae	0.000185133186774689	salmon
+Rhodobacteraceae	Ferrimonadaceae	0.000187679118462662	salmon
+Rhodobacteraceae	Methanomicrobia unclassified	0.000187679192104998	salmon
+Rhodobacteraceae	Natrialbaceae	0.000191611436311608	salmon
+Rhodobacteraceae	Propionibacteriales unclassified	0.000199864748523061	salmon
+Rhodobacteraceae	Leotiomyceta unclassified	0.000203360321867416	salmon
+Rhodobacteraceae	Chrysiogenaceae	0.000204907520587406	salmon
+Rhodobacteraceae	Bacillaceae	0.000209274985464432	salmon
+Rhodobacteraceae	Gallionellaceae	0.000225183760536295	salmon
+Rhodobacteraceae	Patulibacteraceae	0.00024893785254921	salmon
+Rhodobacteraceae	Rubrobacteraceae	0.000249725188986217	salmon
+Rhodobacteraceae	Heliobacteriaceae	0.000258093032751666	salmon
+Rhodobacteraceae	Methanosarcinaceae	0.000259176713720329	salmon
+Rhodobacteraceae	Cryptosporangiaceae	0.000271153893981466	salmon
+Rhodobacteraceae	Nitrospinaceae	0.000310613851361138	salmon
+Rhodobacteraceae	Kosmotogaceae	0.000343346555840567	salmon
+Rhodobacteraceae	Halanaerobiaceae	0.000507586295841662	salmon
+Rhodobacteraceae	Unclassified Verrucomicrobia unclassified	0.000557319315820336	salmon
+Rhodobacteraceae	Aspergillaceae	0.000597633607381374	salmon

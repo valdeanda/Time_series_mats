@@ -1,0 +1,27 @@
+id 	label 	Domain	Phylum 	Class 	group 	shape  	value 
+Aspergillaceae	Aspergillaceae	Fungi	Ascomycota	Eurotiomycetes	1	diamond	0.010078499224908322
+Leotiomyceta unclassified	Leotiomyceta unclassified	Fungi	Ascomycota		1	diamond	0.0006059019088019397
+Bacteria unclassified	Bacteria unclassified	Bacteria	Bacteria Unclassified		2	dot	0.26334918005744484
+Saprospiraceae	Saprospiraceae	Bacteria	Bacteroidetes	Sphingobacteriia	3	dot	0.0010017528457345855
+Cyclobacteriaceae	Cyclobacteriaceae	Bacteria	Bacteroidetes	Cytophagia	3	dot	0.01148388327384025
+Flammeovirgaceae	Flammeovirgaceae	Bacteria	Bacteroidetes	Cytophagia	3	dot	0.00040112161009147403
+Candidatus Parcubacteria unclassified	Candidatus Parcubacteria unclassified	Bacteria	Candidatus Parcubacteria		4	dot	0.0008496252321287388
+Oscillochloridaceae	Oscillochloridaceae	Bacteria	Chloroflexi	Chloroflexia	5	dot	0.0017631775511643885
+Chloroflexineae unclassified	Chloroflexineae unclassified	Bacteria	Chloroflexi	Chloroflexia	5	dot	0.0002751214093938792
+Chloroflexales unclassified	Chloroflexales unclassified	Bacteria	Chloroflexi	Chloroflexia	5	dot	0.00029895992102472216
+Oscillatoriales unclassified	Oscillatoriales unclassified	Bacteria	Cyanobacteria		6	dot	0.039783281432245826
+Chroococcales unclassified	Chroococcales unclassified	Bacteria	Cyanobacteria		6	dot	0.050353844531891685
+Prochlorotrichaceae	Prochlorotrichaceae	Bacteria	Cyanobacteria		6	dot	0.00205341079148725
+Rivulariaceae	Rivulariaceae	Bacteria	Cyanobacteria		6	dot	0.0006794170601623807
+Microchaetaceae	Microchaetaceae	Bacteria	Cyanobacteria		6	dot	0.0006950542614933644
+Stigonematales unclassified	Stigonematales unclassified	Bacteria	Cyanobacteria		6	dot	0.0012823791150821722
+Gloeobacterales unclassified	Gloeobacterales unclassified	Bacteria	Cyanobacteria	Gloeobacteria	6	dot	0.0008665218421784861
+Cyanobacteria unclassified	Cyanobacteria unclassified	Bacteria	Cyanobacteria		6	dot	0.005534361641487824
+Bacillaceae	Bacillaceae	Bacteria	Firmicutes	Bacilli	7	dot	0.02542329298567908
+Heliobacteriaceae	Heliobacteriaceae	Bacteria	Firmicutes	Clostridia	7	dot	0.00023779597105683323
+Thermoanaerobacterales Family III. Incertae Sedis	Thermoanaerobacterales Family III. Incertae Sedis	Bacteria	Firmicutes	Clostridia	7	dot	0.00020043624002453965
+Rhodobacteraceae	Rhodobacteraceae	Bacteria	Proteobacteria	Alphaproteobacteria	8	dot	0.5260889386475371
+Desulfobacteraceae	Desulfobacteraceae	Bacteria	Proteobacteria	Deltaproteobacteria	8	dot	0.2982309953751986
+Francisellaceae	Francisellaceae	Bacteria	Proteobacteria	Gammaproteobacteria	8	dot	0.0006596449109862198
+Thiotrichaceae	Thiotrichaceae	Bacteria	Proteobacteria	Gammaproteobacteria	8	dot	0.0007217697681222584
+Unclassified Verrucomicrobia unclassified	Unclassified Verrucomicrobia unclassified	Bacteria	Verrucomicrobia		9	dot	0.005260099697238447
