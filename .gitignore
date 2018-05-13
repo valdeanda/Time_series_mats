@@ -1,36 +1,36 @@
-	data/Pielou_genus.txt
-	data/Shanon_genus.txt
-	data/Shanon_pfam.txt
-	data/Taxonomic_class.csv
-	data/carbon.pathways
-	data/consensusmotifs.txt
-	data/frow.sitea.txt
-	data/frow.siteb.txt
-	data/frow.sitec.txt
-	data/grow.sitea.txt
-	data/grow.siteb.txt
-	data/grow.sitec.txt
-	data/hmmsearch_mats/
-	data/motifs/
-	data/motifs_out/
-	data/pielou.pfam.txt
-	data/raw_data/
-	data/site_A_family.txt
-	data/site_B_family.txt
-	data/site_C_family.txt
-	data/sulfur.pathways
-	data/toTable.motifs.txt
-	data/valuesA.txt
-	data/valuesB.txt
-	data/valuesC.txt
-	scripts/.ipynb_checkpoints/Parsing_files_metamis_core-Copy1-checkpoint.ipynb
-	scripts/.ipynb_checkpoints/Pfams_completeness-Copy1-checkpoint.ipynb
-	scripts/.ipynb_checkpoints/Pfams_markers-checkpoint.ipynb
-	scripts/.ipynb_checkpoints/PlotNetworks-checkpoint.ipynb
-	scripts/.ipynb_checkpoints/completeness-checkpoint.ipynb
-	scripts/Parsing_files_metamis_core-Copy1.ipynb
-	scripts/Pfams_completeness-Copy1.ipynb
-	scripts/PlotNetworks.ipynb
-	scripts/heatmaps.r
-	scripts/shannon&pielou.ipynb
+data/Pielou_genus.txt
+data/Shanon_genus.txt
+data/Shanon_pfam.txt
+data/Taxonomic_class.csv
+data/carbon.pathways
+data/consensusmotifs.txt
+data/frow.sitea.txt
+data/frow.siteb.txt
+data/frow.sitec.txt
+data/grow.sitea.txt
+data/grow.siteb.txt
+data/grow.sitec.txt
+data/hmmsearch_mats/
+data/motifs/
+data/motifs_out/
+data/pielou.pfam.txt
+data/raw_data/
+data/site_A_family.txt
+data/site_B_family.txt
+data/site_C_family.txt
+data/sulfur.pathways
+data/toTable.motifs.txt
+data/valuesA.txt
+data/valuesB.txt
+data/valuesC.txt
+scripts/.ipynb_checkpoints/Parsing_files_metamis_core-Copy1-checkpoint.ipynb
+scripts/.ipynb_checkpoints/Pfams_completeness-Copy1-checkpoint.ipynb
+scripts/.ipynb_checkpoints/Pfams_markers-checkpoint.ipynb
+scripts/.ipynb_checkpoints/PlotNetworks-checkpoint.ipynb
+scripts/.ipynb_checkpoints/completeness-checkpoint.ipynb
+scripts/Parsing_files_metamis_core-Copy1.ipynb
+scripts/Pfams_completeness-Copy1.ipynb
+scripts/PlotNetworks.ipynb
+scripts/heatmaps.r
+scripts/shannon&pielou.ipynb
 
