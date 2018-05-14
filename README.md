@@ -100,15 +100,28 @@ ipython3 notebook Core_bacteria.ipynb
 ---
 
 
-### `Biogeochemical cycles and Sulfur completeness`
+### `Metabolic  completeness`
 
-<img src="https://valdeanda.github.io/Time_series_mats/figures/Heatmap.cycles.uv.png" width="200" height="140" align="right">
+<img src="https://github.com/valdeanda/Time_series_mats/blob/master/figures/allS_paths_comp.png" width="200" height="140" align="right">
 
-Script available in  [notebook](https://github.com/valdeanda/Time_series_mats/blob/master/scripts/Pfams_completeness.ipynb) format.
+Script available in  [notebook](https://github.com/valdeanda/Time_series_mats/blob/master/scripts/completeness.ipynb) format.
 Run the notebook
 
 ```bash
-ipython3 notebook Pfams_completeness.ipynb
+ipython3 notebook completeness.ipynb
+```
+
+
+
+### `Marker Pfams `
+
+<img src="https://github.com/valdeanda/Time_series_mats/blob/master/figures/marker.genes1.heatmap.png" width="200" height="140" align="right">
+
+Script available in  [notebook](https://github.com/valdeanda/Time_series_mats/blob/master/scripts/Pfams_markers.ipynb) format.
+Run the notebook
+
+```bash
+ipython3 notebook Pfam_markers.completeness.ipynb
 ```
 
 ---
