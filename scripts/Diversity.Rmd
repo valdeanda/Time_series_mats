@@ -1,0 +1,223 @@
+---
+title: "Ecological index"
+author:
+- affiliation: Instituto de Ecologia UNAM/
+    Estación Experimental de Aula Dei-CSIC, Zaragoza
+    España <http://valeriedeanda.com>
+  name: Valerie De Anda 
+date: '`r format(Sys.Date(),"%d/%b/%Y")`'
+output:
+  html_document:
+    fig_caption: yes
+    highlight: zenburn
+    number_sections: yes
+    theme: cerulean
+    toc: yes
+    toc_float: yes
+  ioslides_presentation:
+    css: ./comm/bkgr.css
+    fig_caption: yes
+    incremental: yes
+    logo: ./comm/quantBiotech.png
+    smaller: yes
+    toc: yes
+    toc_depth: 3
+  pdf_document:
+    fig_caption: yes
+    highlight: zenburn
+    toc: yes
+    toc_depth: 3
+  slidy_presentation:
+    incremental: yes
+  word_document: default
+  html_notebook: 
+    toc: yes
+geometry: margin=1cm
+fontsize: 11pt
+---
+
+```{r knitr setup, include=FALSE,  eval=TRUE, echo=FALSE, warning=FALSE}
+library(knitr)
+knitr::opts_chunk$set(eval=TRUE, cache=FALSE, message=FALSE, warning=FALSE, 
+                      comment = "", results="markup")
+```
+`
+
+```{r setup, eval=FALSE}
+source('http://bioconductor.org/biocLite.R')
+biocLite('phyloseq')
+install.packages("ggplot2")
+install.packages("vegan")
+install.packages("pvclust")
+```
+
+
+
+```{r}
+library("ggplot2")
+library("vegan")
+library("pvclust")
+library("phyloseq")
+```
+
+
+
+#Loading Metadata  
+
+```{r}
+metadata=read.table("../data/sample_data.txt", header=T)
+c("1","1","1","2","2","2","3","3","3","4","4","4")->wl_order
+cbind(wl_order,metadata)->metadata
+metadata
+```
+
+#Loading genera  table 
+```{r}
+gen_otu<- as.matrix(read.table("../data/genus.tab", header=T, row.names=1))
+genOTU=otu_table(gen_otu, taxa_are_rows=T)
+mats2=phyloseq(genOTU)
+
+
+
+data.frame(Sample_ID=metadata$sample_ID, Site=metadata$site, Year=metadata$year, 
+           Period=metadata$samp_period, Water_level=metadata$water_level, Season=metadata$season_year, 
+           wl_order=metadata$wl_order, Temperature=metadata$temp,Conductivity=metadata$sp_comd, Sal=metadata$salt,
+           pH=metadata$pH, row.names=sample_names((mats2)))-> o1
+sampledata= sample_data(o1)
+sampledata
+```
+
+
+
+#Get the diversity index with Phyloseq 
+```{r}
+mats2=phyloseq(genOTU, sampledata)
+estimate_richness(mats2)->div_alpha2
+as.data.frame(t(gen_otu))->gen1
+Pielou2<-vegan::diversity(gen1)/log(specnumber(gen1))
+cbind (div_alpha2,Pielou2)->div_alpha2
+write.table(div_alpha2, "../data/diversidad_genus.txt", sep="\t")
+cbind (div_alpha2,Pielou2, metadata)->div_alpha2
+div_alpha2
+```
+
+
+
+#Save output 
+
+```{r}
+mats2=phyloseq(genOTU, sampledata)
+estimate_richness(mats2)->div_alpha2
+as.data.frame(t(gen_otu))->gen1
+Pielou2<-vegan::diversity(gen1)/log(specnumber(gen1))
+cbind (div_alpha2,Pielou2)->div_alpha2
+write.table(div_alpha2, "../data/alpharichness_genus.txt", sep="\t")
+cbind (div_alpha2,Pielou2, metadata)->div_alpha2
+div_alpha2
+```
+
+
+
+#Metabolic diversity 
+
+##Create phyloseq object  
+```{r}
+
+pfam_tab<- as.matrix(read.table("../data/mats_abundances.sort.tab", header=T, row.names=1))
+pfamOTU=otu_table(pfam_tab, taxa_are_rows=T)
+pfam=phyloseq(pfamOTU)
+cbind(wl_order,metadata)->metadata
+data.frame(Sample_ID=metadata$sample_ID, Site=metadata$site, Year=metadata$year, 
+           Period=metadata$samp_period, Water_level=metadata$water_level, Season=metadata$season_year, 
+           wl_order=metadata$wl_order, Temperature=metadata$temp,Conductivity=metadata$sp_comd, Sal=metadata$salt,
+           pH=metadata$pH, row.names=sample_names((pfam)))-> o2
+sampledata= sample_data(o2)
+
+Sampledata= sample_data(o2)
+pfam=phyloseq(pfamOTU, sampledata)
+```
+
+
+#Estimate richness 
+
+```{r}
+estimate_richness(pfam)->div_alpha_p
+as.data.frame(t(pfam_tab))->sp2
+Pielou<-vegan::diversity(sp2)/log(specnumber(sp2))
+cbind (div_alpha_p,Pielou, metadata)->div_alpha_p
+div_alpha_p
+write.table(div_alpha_p, "../data/alpharichness_pfam.txt", sep="\t")
+```
+
+
+
+#Plot richness 
+
+```{r}
+# Plot diversity by Pfams
+#pdf("../figures/alpharichnes.pdf")
+par(mfrow=c(2,1))
+
+pG=plot_richness(mats2, x="Site", color="Season")
+pG+ geom_point(size=5, alpha=0.7)
+
+pf=plot_richness(pfam, x="Site", color="Season")
+pf + geom_point(size=5, alpha=0.7)
+#dev.off()
+```
+
+# Rarefaction curves 
+### Site A 
+```{r}
+
+Acum_1_A<-(gen_otu[,1])
+Acum_2_A<-rowSums(gen_otu[,c(1,4)])
+Acum_3_A<-rowSums(gen_otu[,c(1,4,7)])
+Acum_4_A<-rowSums(gen_otu[,c(1,4,7,10)])
+
+cbind(Acum_1_A, Acum_2_A, Acum_3_A, Acum_4_A)->acumulativa.A
+
+acumulativa.A[1:3, 1:4]
+```
+
+### Site A 
+
+```{r}
+Acum_1_B<-(gen_otu[,2])
+Acum_2_B<-rowSums(gen_otu[,c(2,5)])
+Acum_3_B<-rowSums(gen_otu[,c(2,5,8)])
+Acum_4_B<-rowSums(gen_otu[,c(2,5,8,11)])
+
+cbind(Acum_1_B, Acum_2_B, Acum_3_B, Acum_4_B)->acumulativa.B
+```
+
+
+### Site B 
+```{r}
+Acum_1_C<-(gen_otu[,3])
+Acum_2_C<-rowSums(gen_otu[,c(3,6)])
+Acum_3_C<-rowSums(gen_otu[,c(3,6,9)])
+Acum_4_C<-rowSums(gen_otu[,c(3,6,9,12)])
+
+cbind(Acum_1_C, Acum_2_C, Acum_3_C, Acum_4_C)->acumulativa.C
+```
+
+
+#Plot graph 
+```{r}
+#pdf("../figures/curvas.rarefacción.pdf")
+rarecurve(t(acumulativa.A), main="Rarefaction curve Site A",leyend=T, ylab="Genera", col=c("cornflowerblue","lightcoral","orange","slateblue"))
+legend("right", legend=c("acum1 = NOV12", "acum2=+MAY13","acum3=+OCT13","acum4=+MAY14"),fill=c("cornflowerblue","lightcoral","orange","slateblue"),title="Season", 
+       cex= .7, title.adj=0.3, bty="0")
+rarecurve(t(acumulativa.B), main="Rarefaction curve Site B",leyend=T, ylab="Genera", col=c("cornflowerblue","lightcoral","orange","slateblue"))
+legend("right", legend=c("acum1 = NOV12", "acum2=+MAY13","acum3=+OCT13","acum4=+MAY14"),fill=c("cornflowerblue","lightcoral","orange","slateblue"),title="Season", 
+       cex= .7, title.adj=0.3, bty="0")
+rarecurve(t(acumulativa.C), main="Rarefaction curve at genus level Site C",leyend=T, ylab="Genera", col=c("cornflowerblue","lightcoral","orange","slateblue"))
+legend("right", legend=c("acum1 = NOV12", "acum2=+MAY13","acum3=+OCT13","acum4=+MAY14"),fill=c("cornflowerblue","lightcoral","orange","slateblue"),title="Season", 
+       cex= .7, title.adj=0.3, bty="0")
+#dev.off()
+
+
+```
+
+
