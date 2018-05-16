@@ -1,0 +1,400 @@
+---
+title: "Hierarchical clustering"
+author:
+- affiliation: Instituto de Ecologia UNAM/
+    Estación Experimental de Aula Dei-CSIC, Zaragoza
+    España <http://valeriedeanda.com>
+  name: Valerie De Anda 
+date: '`r format(Sys.Date(),"%d/%b/%Y")`'
+output:
+  html_document:
+    fig_caption: yes
+    highlight: zenburn
+    number_sections: yes
+    theme: cerulean
+    toc: yes
+    toc_float: yes
+  ioslides_presentation:
+    css: ./comm/bkgr.css
+    fig_caption: yes
+    incremental: yes
+    logo: ./comm/quantBiotech.png
+    smaller: yes
+    toc: yes
+    toc_depth: 3
+  pdf_document:
+    fig_caption: yes
+    highlight: zenburn
+    toc: yes
+    toc_depth: 3
+  slidy_presentation:
+    incremental: yes
+  word_document: default
+  html_notebook: 
+    toc: yes
+geometry: margin=1cm
+fontsize: 11pt
+---
+
+```{r knitr setup, include=FALSE,  eval=TRUE, echo=FALSE, warning=FALSE}
+library(knitr)
+knitr::opts_chunk$set(eval=TRUE, cache=FALSE, message=FALSE, warning=FALSE, 
+                      comment = "", results="markup")
+```
+
+
+
+
+
+
+```{r}
+library(vegan)
+library(pvclust)
+library(fpc)
+library(ggplot2)
+library(gridExtra)
+library(dendextend)
+```
+
+
+#Taxonomic data 
+
+```{r}
+genus<-read.table("../data/normalizedGenus.tsv", header=TRUE, sep="\t", row.names = 1)
+genus[1:3,1:5]
+genust<-as.data.frame(t(genus))
+genust[1:3,1:5]
+```
+
+#Metabolic profile (Pfam)
+
+```{r}
+pfam<-read.table("../data/pfams_norm.txt", header = TRUE, sep="\t", row.names = 1)
+pfamt<-as.data.frame(t(pfam))
+pfamt[1:3,1:5]
+```
+
+#Generate basic cluster dendogram 
+
+```{r}
+dist.mat<-vegdist(genust, method="bray")
+clust.res<-hclust(dist.mat)
+plot(clust.res, hang=-1, main="Bray curtis Genera")
+rect.hclust((clust.res), k=3)
+```
+
+It seem to have three clusters, now lets look at the Pfam data 
+
+```{r}
+dist.mat2<-vegdist(pfamt, method="bray")
+clust.res2<-hclust(dist.mat2)
+plot(clust.res, hang=-1, main="Bray curtisPfam")
+rect.hclust((clust.res), k=4)
+```
+
+#First evaluation of the clusters
+
+```{r }
+result<- pvclust(genust, method.dist=function(x){vegdist(x,"bray")}, method.hclust = "complete", nboot=10)
+plot(result)
+pvrect(result,alpha = 0.95)
+```
+
+Seems that there is no cluster consistency using Bry curtis
+
+```{r}
+result<- pvclust(pfamt, method.dist=function(x){vegdist(x,"bray")}, method.hclust = "complete", nboot=10)
+plot(result)
+pvrect(result,alpha = 0.95)
+ 
+```
+
+
+After testing several distance and clustering methods we found that the best to separate the data   
+
+```{r}
+distanG<-dist(genust,method="maximum")
+distanceP<-dist(pfamt,method="maximum")
+dendG<-as.dendrogram(hclust(distanG, method="ward.D"))
+dendP<-as.dendrogram(hclust(distanceP, method="ward.D"))
+clustG<-hclust(distanG, method = "ward.D")
+clustP<-hclust(distanceP,method = "ward.D")
+```
+
+
+```{r}
+pdf("../figures/clustering.ward.maximum.pdf")
+par(mfrow = c(2,1))
+plot(hclust(distanG), hang=-1, main="Genera" )
+rect.hclust((clustG), k=2)
+
+plot(dendP, hang=-1, main=" Pfam" )
+rect.hclust((clustP), k=4)
+dev.off()
+```
+
+#Testing the clusters with the same method 
+
+```{r}
+# vegdist function use the transposed matrix, but pvclust do not require the transposed data
+
+par(mfrow = c(2,1))
+
+result<- pvclust(genus, method.dist="maximum", method.hclust = "ward.D", nboot=10000)
+plot(result)
+pvrect(result,alpha = 0.95)
+
+
+result<- pvclust(pfam, method.dist="maximum", method.hclust = "ward.D", nboot=10000)
+plot(result)
+pvrect(result,alpha = 0.95)
+
+```
+
+#Clusterboot
+
+Clusterboot() algorithm assumes that you have the number of clusters, k.  clusterboot() is a useful tool for evaluating the strength of the patterns that you have discovered.
+
+Ww use the distance matrix and the same agglomerative method "ward.D" an interface to the function hclust for agglomerative hierarchical clustering with optional noise cluster. This function produces a partition and assumes a cases*variables matrix as input.
+
+```{r}
+#We set B=1000, change this parameter to increase botstrapping 
+kbest.p<-2
+cboot.hclust<-clusterboot(distanG,clustermethod=hclustCBI,
+                          method="ward.D", k=kbest.p, B=100, 
+                          distances=TRUE)
+groups<-cboot.hclust$result$partition
+```
+
+```{r}
+groups
+mean<-cboot.hclust$bootmean
+stab<-cboot.hclust$bootbrd
+print(c( mean, stab))
+```
+This indicate that this groups are highly stable, now PFAM 
+```{r}
+kbest.p<-4
+cboot.hclust<-clusterboot(distanceP,clustermethod=hclustCBI,
+                          method="ward.D", k=kbest.p, B=100, 
+                          distances=TRUE)
+groupsP<-cboot.hclust$result$partition
+
+```
+
+
+
+```{r}
+groupsP
+mean<-cboot.hclust$bootmean
+mean
+stab<-cboot.hclust$bootbrd
+stab
+print(c( mean, stab))
+```
+
+
+#Plotting data
+We use [this tutorial for plotting)[https://cran.r-project.org/web/packages/dendextend/vignettes/FAQ.html]
+
+```{r}
+par(mfrow = c(2,1), mar = c(5,2,1,0))
+ dendG <- dendG %>%
+          color_branches(k = 2) %>%
+          set("branches_lwd", c(2,1,2)) %>%
+          set("branches_lty", c(1,2,1))
+
+ dendG <- color_labels(dendG, k = 2)
+ # The same as:
+ # labels_colors(dend)  <- get_leaves_branches_col(dend)
+ plot(dendG)
+ 
+ dendP<- dendP %>%
+          color_branches(k =3 ) %>%
+          set("branches_lwd", c(2,1,2)) %>%
+          set("branches_lty", c(1,2,1))
+ dendP<- color_labels(dendP, k = 3)
+
+ plot(dendP)
+
+ 
+```
+
+
+#CLuster with legend 
+
+```{r}
+#Get the groups 
+#First according to site 
+s_type <- rep("Other",length(rownames(genust)))
+is_x <- grepl("S1", rownames(genust))
+s_type[is_x] <- "Site A"
+is_x <- grepl("S4", rownames(genust))
+s_type[is_x] <- "Site A"
+is_x <- grepl("S7", rownames(genust))
+s_type[is_x] <- "Site A"
+is_x <- grepl("S10", rownames(genust))
+s_type[is_x] <- "Site A"
+is_x <- grepl("S2", rownames(genust))
+s_type[is_x] <- "Site B"
+is_x <- grepl("S5", rownames(genust))
+s_type[is_x] <- "Site B"
+is_x <- grepl("S8", rownames(genust))
+s_type[is_x] <- "Site B"
+is_x <- grepl("S11", rownames(genust))
+s_type[is_x] <- "Site B"
+is_x <- grepl("S3", rownames(genust))
+s_type[is_x] <- "Site C"
+is_x <- grepl("S6", rownames(genust))
+s_type[is_x] <- "Site C"
+is_x <- grepl("S9", rownames(genust))
+s_type[is_x] <- "Site C"
+is_x <- grepl("S12", rownames(genust))
+s_type[is_x] <- "Site C"
+
+s_type<-factor(s_type)
+
+n_types <- length(unique(s_type))
+cols_4 <- colorspace::rainbow_hcl(n_types, n=3, c = 120, l  = 60)
+col_type <- cols_4[s_type]
+
+#cutree 
+
+k234<-cutree(dendG, k=2:4)
+#color labels by site
+labels_colors(dendG)<-col_type[order.dendrogram((dendG))]
+
+
+#Get the groups 
+#According to group detected by clusterboot 
+cb_type <- rep("Other",length(rownames(genust)))
+is_x <- grepl("S1", rownames(genust))
+cb_type[is_x] <- "Group 1"
+is_x <- grepl("S4", rownames(genust))
+cb_type[is_x] <- "Group 1"
+is_x <- grepl("S6", rownames(genust))
+cb_type[is_x] <- "Group 1"
+is_x <- grepl("S7", rownames(genust))
+cb_type[is_x] <- "Group 1"
+is_x <- grepl("S9", rownames(genust))
+cb_type[is_x] <- "Group 1"
+is_x <- grepl("S10", rownames(genust))
+cb_type[is_x] <- "Group 1"
+is_x <- grepl("S12", rownames(genust))
+cb_type[is_x] <- "Group 1"
+is_x <- grepl("S2", rownames(genust))
+cb_type[is_x] <- "Group 2"
+is_x <- grepl("S3", rownames(genust))
+cb_type[is_x] <- "Group 2"
+is_x <- grepl("S5", rownames(genust))
+cb_type[is_x] <- "Group 2"
+is_x <- grepl("S8", rownames(genust))
+cb_type[is_x] <- "Group 2"
+is_x <- grepl("S11", rownames(genust))
+cb_type[is_x] <- "Group 2"
+
+cb_type<-factor(cb_type)
+nb_types <- length(unique(cb_type))
+colsnb_4 <- colorspace::diverge_hcl(nb_types, c = 100, l  = 85)
+
+
+colnb_type <- colsnb_4[cb_type]
+
+### plots
+#par(mar = c(12,4,1,1))
+
+par(mfrow=c(2,1))
+plot(dendG, main="Genera")
+colored_bars(cbind(k234[,3:1], colnb_type,col_type), dendG, rowLabels = c(paste0("k = ", 4:2), "Group" ,"Site"))
+
+
+
+
+```
+
+```{r}
+
+#Get the groups 
+#First according to site 
+s_type <- rep("Other",length(rownames(genust)))
+is_x <- grepl("S1", rownames(pfamt))
+s_type[is_x] <- "Site A"
+is_x <- grepl("S4", rownames(pfamt))
+s_type[is_x] <- "Site A"
+is_x <- grepl("S7", rownames(pfamt))
+s_type[is_x] <- "Site A"
+is_x <- grepl("S10", rownames(pfamt))
+s_type[is_x] <- "Site A"
+is_x <- grepl("S2", rownames(pfamt))
+s_type[is_x] <- "Site B"
+is_x <- grepl("S5", rownames(pfamt))
+s_type[is_x] <- "Site B"
+is_x <- grepl("S8", rownames(pfamt))
+s_type[is_x] <- "Site B"
+is_x <- grepl("S11", rownames(pfamt))
+s_type[is_x] <- "Site B"
+is_x <- grepl("S3", rownames(pfamt))
+s_type[is_x] <- "Site C"
+is_x <- grepl("S6", rownames(pfamt))
+s_type[is_x] <- "Site C"
+is_x <- grepl("S9", rownames(pfamt))
+s_type[is_x] <- "Site C"
+is_x <- grepl("S12", rownames(pfamt))
+s_type[is_x] <- "Site C"
+
+s_type<-factor(s_type)
+
+n_types <- length(unique(s_type))
+cols_4 <- colorspace::rainbow_hcl(n_types, n=3, c = 120, l  = 60)
+colp_type <- cols_4[s_type]
+
+#cutree 
+
+k234<-cutree(dendP, k=2:4)
+#color labels by site
+labels_colors(dendP)<-col_type[order.dendrogram((dendP))]
+
+
+
+cb_type <- rep("Other",length(rownames(pfamt)))
+is_x <- grepl("S1", rownames(pfamt))
+cb_type[is_x] <- "Group 1"
+is_x <- grepl("S4", rownames(pfamt))
+cb_type[is_x] <- "Group 1"
+is_x <- grepl("S5", rownames(pfamt))
+cb_type[is_x] <- "Group 1"
+is_x <- grepl("S7", rownames(pfamt))
+cb_type[is_x] <- "Group 1"
+is_x <- grepl("S9", rownames(pfamt))
+cb_type[is_x] <- "Group 1"
+is_x <- grepl("S10", rownames(pfamt))
+cb_type[is_x] <- "Group 1"
+is_x <- grepl("S2", rownames(pfamt))
+cb_type[is_x] <- "Group 2"
+is_x <- grepl("S3", rownames(pfamt))
+cb_type[is_x] <- "Group 3"
+is_x <- grepl("S6", rownames(pfamt))
+cb_type[is_x] <- "Group 4"
+is_x <- grepl("S8", rownames(pfamt))
+cb_type[is_x] <- "Group 4"
+is_x <- grepl("S11", rownames(pfamt))
+cb_type[is_x] <- "Group 4"
+is_x <- grepl("S12", rownames(pfamt))
+cb_type[is_x] <- "Group 4"
+
+cb_type<-factor(cb_type)
+nb_types <- length(unique(cb_type))
+colsnb_4 <- colorspace::rainbow_hcl(nb_types, c = 145, l = 90)
+colnb_type <- colsnb_4[cb_type]
+
+colnb_type <- colsnb_4[cb_type]
+
+### plots
+#pdf("finalpfam.pdf")
+par(mfrow=c(2,1))
+plot(dendP, main="Pfam")
+colored_bars(cbind(k234[,3:1], colnb_type,colp_type), dendP, rowLabels = c(paste0("k = ", 4:2), "Group" ,"Site"))
+#dev.off()
+```
+
+
