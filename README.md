@@ -146,9 +146,9 @@ Available script in [html](https://valdeanda.github.io/Time_series_mats/scripts/
 
 <img src="https://valdeanda.github.io/Time_series_mats/figures/clustering.png" width="180" height="150" align="right"> 
 
-Script available in [html](https://valdeanda.github.io/Time_series_mats/scripts/clustering.html)format 
+Script available in [html](https://valdeanda.github.io/Time_series_mats/scripts/clustering.html) format 
 
----
+
 ### `MORE`
 
 For more information about the problematic in Cuatro Cienegas related to water overexploitation for human activities please [visit the documentary film](http://documentalcuatrocienegas.com/)
