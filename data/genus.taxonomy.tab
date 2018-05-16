@@ -1,4 +1,4 @@
-Sample Name	Roll Up Level	Rank	Tax ID	Type	Phylum	Class	Order	Family	Genus	Species	All Samples	S1	S2	S3	S4	S5	S6	S7	S8	S9	S10	S11	S12
+Sample Name	RollUpLevel	Rank	TaxID	Type	Phylum	Class	Order	Family	Genus	Species	All Samples	S1	S2	S3	S4	S5	S6	S7	S8	S9	S10	S11	S12
 Bacteria unclassified	genus	superkingdom	2	Bacteria							22336	1438	479	1550	1925	1651	1652	1938	2156	2058	2401	2537	2551
 Desulfatitalea	genus	genus	1303912	Bacteria	Proteobacteria	Deltaproteobacteria	Desulfobacterales	Desulfobacteraceae	Desulfatitalea		18975	187	257	4791	59	3120	372	966	5216	267	499	2709	532
 Proteobacteria unclassified	genus	phylum	1224	Bacteria	Proteobacteria						16807	1089	343	1418	1661	1320	1276	1591	1547	1519	1471	1283	2289
