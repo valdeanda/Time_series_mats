@@ -151,6 +151,6 @@ Script available in [html](https://valdeanda.github.io/Time_series_mats/scripts/
 
 ### `MORE`
 
-For more information about the problematic in Cuatro Cienegas related to water overexploitation for human activities please [visit the documentary film](http://documentalcuatrocienegas.com/)
+For more information about Cuatro Cienegas please [visit the documentary film](http://documentalcuatrocienegas.com/)
 
 ---
