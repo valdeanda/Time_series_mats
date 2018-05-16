@@ -138,7 +138,7 @@ The script  is available in [R](https://github.com/valdeanda/Time_series_mats/bl
 
 <img src="https://valdeanda.github.io/Time_series_mats/figures/diversity.png" width="180" height="150" align="righ">
 
-Available script in [html](https://valdeanda.github.io/Time_series_mats/scripts/AlfaDiversity.html) format 
+Script in [html](https://valdeanda.github.io/Time_series_mats/scripts/AlfaDiversity.html) format 
 
 ---
 
