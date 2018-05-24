@@ -1,0 +1,15 @@
+PATHWAY 	PATHWAY NAME 
+9	Methanogenesis, methanol => methane
+8	methanogenesis from acetate reductive acetyl coenzyme A pathway II (autotrophic methanogens)
+7	Methanogenesis, CO2 => methane
+6	Methanogenesis from dimethylsulfide/methanethiol/methlthiolpropanoate => methane
+5	Methanogenesis, methylamine/dimethylamine/trimethylamine => methane
+4	Methanogenesis, acetate => methane (M00357) 
+3	methanogenesis energy conservation 
+2	Methane oxidation, methanotroph, methane => formaldehyde
+1	coenzyme B/coenzyme M regeneration I (methanophenazine-dependent)
+13	methyl-coenzyme M reduction to methane
+13	methyl-coenzyme M reduction to methane
+12	methyl-coenzyme M oxidation to CO2
+10	methylamine degradation II
+10	methylamine degradation I
