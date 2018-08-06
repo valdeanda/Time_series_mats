@@ -38,6 +38,48 @@ In order to reproduce all the figures the following libraries and packages must 
 
 ###  Figures
 
+---
+
+### `Taxonomic composition`
+
+<img src="https://valdeanda.github.io/Time_series_mats/figures/Barplot.png" width="200" height="150" align="right">
+
+Script available in [notebook](https://github.com/valdeanda/Time_series_mats/blob/master/scripts/Diversity.ipynb) format
+
+Run the notebook 
+
+```bash
+ipython3 notebook Diversity.ipynb
+```
+
+---
+
+
+### `Compute th "microbial mat core"`
+
+Using [get_homologues](https://github.com/eead-csic-compbio/get_homologues)
+
+<img src="https://valdeanda.github.io/Time_series_mats/figures/Mats_core.png" width="200" height="150" align="right">
+
+Script available in  [notebook](https://github.com/valdeanda/Time_series_mats/blob/master/scripts/Core_bacteria.ipynb) format. 
+
+Run the notebook 
+
+```bash
+ipython3 notebook Core_bacteria.ipynb
+```
+
+
+### `Ecological indexes`
+
+
+<img src="https://valdeanda.github.io/Time_series_mats/figures/diversity.png" width="180" height="150" align="righ">
+
+Script in [html](https://valdeanda.github.io/Time_series_mats/scripts/AlfaDiversity.html) format 
+
+---
+
+
 
 ### `Network motifs`
 
@@ -65,39 +107,6 @@ ipython3 notebook MebsInTime.ipynb
 ```
 
 ---
-
-### `Barplot composition and logaritmic scale`
-
-<img src="https://valdeanda.github.io/Time_series_mats/figures/Barplot.png" width="200" height="150" align="right">
-
-Script available in [notebook](https://github.com/valdeanda/Time_series_mats/blob/master/scripts/Bar_plots_composition.ipynb) format
-
-Run the notebook 
-
-```bash
-ipython3 notebook Bar_plots_composition.ipynb
-```
-
----
-
-
-### `Microbial mat core`
-
-Using [get_homologues](https://github.com/eead-csic-compbio/get_homologues)
-
-<img src="https://valdeanda.github.io/Time_series_mats/figures/Mats_core.png" width="200" height="150" align="right">
-
-Script available in  [notebook](https://github.com/valdeanda/Time_series_mats/blob/master/scripts/Core_bacteria.ipynb) format. 
-
-Run the notebook 
-
-```bash
-ipython3 notebook Core_bacteria.ipynb
-```
-
----
-
-
 ### `Metabolic  completeness`
 
 <img src="https://github.com/valdeanda/Time_series_mats/blob/master/figures/allS_paths_comp.png" width="200" height="140" align="right">
@@ -106,22 +115,9 @@ Script available in  [notebook](https://github.com/valdeanda/Time_series_mats/bl
 Run the notebook
 
 ```bash
-ipython3 notebook completeness.ipynb
-```
-
----
 
 
-### `Marker Pfams `
-
-<img src="https://github.com/valdeanda/Time_series_mats/blob/master/figures/marker.genes1.heatmap.png" width="200" height="140" align="right">
-
-Script available in  [notebook](https://github.com/valdeanda/Time_series_mats/blob/master/scripts/Pfams_markers.ipynb) format.
-Run the notebook
-
-```bash
-ipython3 notebook Pfam_markers.completeness.ipynb
-```
+ipython Ccompleteness.ipynb
 
 ---
 
@@ -132,21 +128,6 @@ ipython3 notebook Pfam_markers.completeness.ipynb
 The script  is available in [R](https://github.com/valdeanda/Time_series_mats/blob/master/scripts/finalToPlot.R)
 
 ---
-
-### `Ecological index`
-
-
-<img src="https://valdeanda.github.io/Time_series_mats/figures/diversity.png" width="180" height="150" align="righ">
-
-Script in [html](https://valdeanda.github.io/Time_series_mats/scripts/AlfaDiversity.html) format 
-
----
-
-### `Clustering analysis`
-
-<img src="https://valdeanda.github.io/Time_series_mats/figures/clustering.png" width="180" height="150" align="right"> 
-
-Script available in [html](https://valdeanda.github.io/Time_series_mats/scripts/clustering.html) format 
 
 
 ### `MORE`
