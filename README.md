@@ -55,7 +55,7 @@ ipython3 notebook Diversity.ipynb
 ---
 
 
-### `Compute th "microbial mat core"`
+### `Compute the "microbial mat core"`
 
 Using [get_homologues](https://github.com/eead-csic-compbio/get_homologues)
 
@@ -118,6 +118,8 @@ Run the notebook
 
 
 ipython Ccompleteness.ipynb
+```
+
 
 ---
 
