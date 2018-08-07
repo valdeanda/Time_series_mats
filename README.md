@@ -112,7 +112,7 @@ The dynamic networks for each site are available here:
 
 ### `Network motifs`
 
-<img src="https://valdeanda.github.io/Time_series_mats/figures/Figure8.png" width="200" height="200" align="right">
+<img src="https://valdeanda.github.io/Time_series_mats/figures/Figure8.png" width="200" height="150" align="right">
 
 Script available in [notebook](https://github.com/valdeanda/Time_series_mats/blob/master/scripts/Motifs.ipynb) format.
 
