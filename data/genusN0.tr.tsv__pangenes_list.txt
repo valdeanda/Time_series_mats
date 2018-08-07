@@ -1,4 +1,0 @@
-# /home/val/src/get_homologues/parse_pangenome_matrix.pl -m ../data/genusN0.tr.tsv -A ../data/humid.txt -B ../data/dry.txt -g 1 -e 0 -p  -P 100 -S 0
-# genes present in set A and absent in B (2):
-Ornatilinea
-Rikenellaceae unclassified
