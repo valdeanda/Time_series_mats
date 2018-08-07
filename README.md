@@ -40,17 +40,24 @@ In order to reproduce all the figures the following libraries and packages must 
 
 ---
 
-### `Taxonomic composition`
+### `Taxonomic composition, microbial mat core and rare biosphere`
 
-<img src="https://valdeanda.github.io/Time_series_mats/figures/Barplot.png" width="200" height="150" align="right">
+<img src="https://valdeanda.github.io/Time_series_mats/figures/Figure2.png" width="200" height="150" align="right">
 
 Script available in [notebook](https://github.com/valdeanda/Time_series_mats/blob/master/scripts/Diversity.ipynb) format
 
-Run the notebook 
 
 ```bash
-ipython3 notebook Diversity.ipynb
+jupyter notebook  Diversity.ipynb
 ```
+
+To compute the ecological indexes plase open the following script  directly in your browser
+
+
+<img src="https://valdeanda.github.io/Time_series_mats/figures/Figure1.png" width="180" height="150" align="righ">
+
+Script in [html](https://valdeanda.github.io/Time_series_mats/scripts/AlfaDiversity.html) format
+
 
 ---
 
