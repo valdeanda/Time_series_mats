@@ -123,6 +123,8 @@ jupyter notebook  Motifs.ipynb
 
 ### `MORE`
 
+<img src="https://valdeanda.github.io/Time_series_mats/figures/film.png" width="200" height="200" align="right">
+
 For more information about Cuatro Cienegas please [visit the documentary film](http://documentalcuatrocienegas.com/)
 
 ---
