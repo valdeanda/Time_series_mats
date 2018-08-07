@@ -51,41 +51,54 @@ Script available in [notebook](https://github.com/valdeanda/Time_series_mats/blo
 jupyter notebook  Diversity.ipynb
 ```
 
-To compute the ecological indexes plase open the following script  directly in your browser
-
++ To compute the ecological indexes plase open the following [script](https://valdeanda.github.io/Time_series_mats/scripts/AlfaDiversity.html)  directly in your browser. 
 
 <img src="https://valdeanda.github.io/Time_series_mats/figures/Figure1.png" width="180" height="150" align="righ">
 
-Script in [html](https://valdeanda.github.io/Time_series_mats/scripts/AlfaDiversity.html) format
-
-
----
-
-
-### `Compute the "microbial mat core"`
-
-Using [get_homologues](https://github.com/eead-csic-compbio/get_homologues)
-
-<img src="https://valdeanda.github.io/Time_series_mats/figures/Mats_core.png" width="200" height="150" align="right">
-
-Script available in  [notebook](https://github.com/valdeanda/Time_series_mats/blob/master/scripts/Core_bacteria.ipynb) format. 
-
-Run the notebook 
++ To compute the microbial mat core, we used [get_homologues](https://github.com/eead-csic-compbio/get_homologues). The script is available in [notebook](https://github.com/valdeanda/Time_series_mats/blob/master/scripts/Core_bacteria.ipynb) format. 
+To repeat the analysis please type in your terminal: 
 
 ```bash
-ipython3 notebook Core_bacteria.ipynb
+jupyter notebook  Core_bacteria.ipynb
 ```
 
 
-### `Ecological indexes`
+### `Capturing the dynamics of biogeochemical cycles with MEBS`
 
 
-<img src="https://valdeanda.github.io/Time_series_mats/figures/diversity.png" width="180" height="150" align="righ">
+<img src="https://valdeanda.github.io/Time_series_mats/figures/Figure6.png" width="200" height="150" align="right">
 
-Script in [html](https://valdeanda.github.io/Time_series_mats/scripts/AlfaDiversity.html) format 
+Script available in  [notebook](https://github.com/valdeanda/Time_series_mats/blob/master/scripts/MebsInTime.ipynb) format. 
+
+
+```bash
+jupyer notebook MebsInTime.ipynb
+```
 
 ---
 
++ To compute the metbolic  completeness
+
+
+Script available in  [notebook](https://github.com/valdeanda/Time_series_mats/blob/master/scripts/completeness.ipynb) format.
+Run the notebook
+
+```bash
+
+
+jupyter notebook completeness.ipynb
+```
+
+
+---
+
+### `Networks`
+
+<img src="https://valdeanda.github.io/Time_series_mats/figures/networkA.png" width="180" height="150" align="right">
+
+The script  is available in [R](https://github.com/valdeanda/Time_series_mats/blob/master/scripts/finalToPlot.R)
+
+---
 
 
 ### `Network motifs`
@@ -101,42 +114,7 @@ ipython3 notebook Motifs.ipynb
 ---
 
 
-### `Main cycles with MEBS over time`
 
-
-<img src="https://valdeanda.github.io/Time_series_mats/figures/MEBS_mats.png" width="200" height="150" align="right">
-
-Script available in  [notebook](https://github.com/valdeanda/Time_series_mats/blob/master/scripts/MebsInTime.ipynb) format. 
-
-
-```bash
-ipython3 notebook MebsInTime.ipynb
-```
-
----
-### `Metabolic  completeness`
-
-<img src="https://github.com/valdeanda/Time_series_mats/blob/master/figures/allS_paths_comp.png" width="200" height="140" align="right">
-
-Script available in  [notebook](https://github.com/valdeanda/Time_series_mats/blob/master/scripts/completeness.ipynb) format.
-Run the notebook
-
-```bash
-
-
-ipython Ccompleteness.ipynb
-```
-
-
----
-
-### `Networks`
-
-<img src="https://valdeanda.github.io/Time_series_mats/figures/networkA.png" width="180" height="150" align="right">
-
-The script  is available in [R](https://github.com/valdeanda/Time_series_mats/blob/master/scripts/finalToPlot.R)
-
----
 
 
 ### `MORE`
