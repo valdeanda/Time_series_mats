@@ -43,7 +43,7 @@ In order to reproduce all the figures the following libraries and packages must 
 ### `Taxonomic composition, microbial mat core and rare biosphere`
 
 
-<img src="https://valdeanda.github.io/Time_series_mats/figures/Figure2.png" width="200" height="150" align="right">
+<img src="https://valdeanda.github.io/Time_series_mats/figures/Figure2.png" width="200" height="200" align="right">
 
 
 + To compute the ecological indexes plase open the following [script](https://valdeanda.github.io/Time_series_mats/scripts/AlfaDiversity.html)  directly in your browser. 
@@ -60,7 +60,7 @@ jupyter notebook  Diversity.ipynb
 ___
 
 ### `Presence absence profile with get_homologues`
-<img src="https://valdeanda.github.io/Time_series_mats/figures/Figure3.png" width="200" height="150" align="right">
+<img src="https://valdeanda.github.io/Time_series_mats/figures/Figure3.png" width="200" height="200" align="right">
 
 + To compute the microbial mat core and the presence absence profile of each site we used [get_homologues](https://github.com/eead-csic-compbio/get_homologues). The script is available in [notebook](https://github.com/valdeanda/Time_series_mats/blob/master/scripts/Core_bacteria.ipynb) format.  To repeat the analysis please type in your terminal: 
 
@@ -97,7 +97,7 @@ jupyter notebook completeness.ipynb
 
 ### `Networks`
 
-<img src="https://valdeanda.github.io/Time_series_mats/figures/Figure7.png" width="180" height="150" align="right">
+<img src="https://valdeanda.github.io/Time_series_mats/figures/Figure7.png" width="200" height="200" align="right">
 
 Open the following [script](https://github.com/valdeanda/Time_series_mats/blob/master/scripts/finalToPlot.R) directly in R
 
@@ -112,7 +112,7 @@ The dynamic networks for each site are available here:
 
 ### `Network motifs`
 
-<img src="https://valdeanda.github.io/Time_series_mats/figures/Figure8.png" width="200" height="150" align="right">
+<img src="https://valdeanda.github.io/Time_series_mats/figures/Figure8.png" width="200" height="200" align="right">
 
 Script available in [notebook](https://github.com/valdeanda/Time_series_mats/blob/master/scripts/Motifs.ipynb) format.
 
