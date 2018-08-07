@@ -48,12 +48,6 @@ In order to reproduce all the figures the following libraries and packages must 
 
 + To compute the ecological indexes plase open the following [script](https://valdeanda.github.io/Time_series_mats/scripts/AlfaDiversity.html)  directly in your browser. 
 
-+ To compute the microbial mat core, we used [get_homologues](https://github.com/eead-csic-compbio/get_homologues). The script is available in [notebook](https://github.com/valdeanda/Time_series_mats/blob/master/scripts/Core_bacteria.ipynb) format.  To repeat the analysis please type in your terminal: 
-
-```bash
-jupyter notebook  Core_bacteria.ipynb
-```
-
 
 + To obtain the final figure 
 
@@ -64,6 +58,19 @@ The script is available in [notebook](https://github.com/valdeanda/Time_series_m
 jupyter notebook  Diversity.ipynb
 ```
 ___
+
+### `Presence absence profile with get_homologues`
+<img src="https://valdeanda.github.io/Time_series_mats/figures/Figure3.png" width="200" height="150" align="right">
+
++ To compute the microbial mat core and the presence absence profile of each site we used [get_homologues](https://github.com/eead-csic-compbio/get_homologues). The script is available in [notebook](https://github.com/valdeanda/Time_series_mats/blob/master/scripts/Core_bacteria.ipynb) format.  To repeat the analysis please type in your terminal: 
+
+```bash
+jupyter notebook  Core_bacteria.ipynb
+```
+
+___
+
+
 
 ### `Capturing the dynamics of biogeochemical cycles with MEBS`
 
