@@ -74,7 +74,7 @@ ___
 
 ### `Capturing the dynamics of biogeochemical cycles with MEBS`
 
-<img src="https://valdeanda.github.io/Time_series_mats/figures/Figure6.png" width="200" height="150" align="right">
+<img src="https://valdeanda.github.io/Time_series_mats/figures/Figure6.png" width="200" height="200" align="right">
 
 
 + Frist compute MEBS with the following script  in  [notebook](https://github.com/valdeanda/Time_series_mats/blob/master/scripts/MebsInTime.ipynb) format. 
