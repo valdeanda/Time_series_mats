@@ -60,7 +60,7 @@ jupyter notebook  Diversity.ipynb
 ___
 
 ### `Presence absence profile with get_homologues`
-<img src="https://valdeanda.github.io/Time_series_mats/figures/Figure3.png" width="200" height="200" align="right">
+<img src="https://valdeanda.github.io/Time_series_mats/figures/Figure3.png" width="200" height="150" align="right">
 
 + To compute the microbial mat core and the presence absence profile of each site we used [get_homologues](https://github.com/eead-csic-compbio/get_homologues). The script is available in [notebook](https://github.com/valdeanda/Time_series_mats/blob/master/scripts/Core_bacteria.ipynb) format.  To repeat the analysis please type in your terminal: 
 
