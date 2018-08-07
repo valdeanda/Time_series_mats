@@ -92,8 +92,14 @@ jupyter notebook completeness.ipynb
 
 <img src="https://valdeanda.github.io/Time_series_mats/figures/Figure7.png" width="180" height="150" align="right">
 
-Open the following [script](https://github.com/valdeanda/Time_series_mats/blob/master/scripts/finalToPlot.R) directly in  your browser. 
+Open the following [script](https://github.com/valdeanda/Time_series_mats/blob/master/scripts/finalToPlot.R) directly in R
 
+The dynamic networks for each site are available here:
+
++ [Site A](https://valdeanda.github.io/Time_series_mats/figures/SiteA.html)
++ [Site B](https://valdeanda.github.io/Time_series_mats/figures/SiteB.html)
++ [Site C](https://valdeanda.github.io/Time_series_mats/figures/siteC.html)
++ [One percentge of the total interactions(https://valdeanda.github.io/Time_series_mats/figures/onepercentinteractions.html)
 ---
 
 
