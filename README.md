@@ -46,11 +46,14 @@ In order to reproduce all the figures the following libraries and packages must 
 
 <img src="https://valdeanda.github.io/Time_series_mats/figures/Figure1.png" width="180" height="150" align="righ">
 
+---
+
 + To compute the microbial mat core, we used [get_homologues](https://github.com/eead-csic-compbio/get_homologues). The script is available in [notebook](https://github.com/valdeanda/Time_series_mats/blob/master/scripts/Core_bacteria.ipynb) format.  To repeat the analysis please type in your terminal: 
 
 ```bash
 jupyter notebook  Core_bacteria.ipynb
 ```
+---
 
 + To obtain the final figure 
 
@@ -62,6 +65,7 @@ The script available in [notebook](https://github.com/valdeanda/Time_series_mats
 ```bash
 jupyter notebook  Diversity.ipynb
 ```
+---
 
 ### `Capturing the dynamics of biogeochemical cycles with MEBS`
 
@@ -74,7 +78,7 @@ jupyter notebook  Diversity.ipynb
 ```bash
 jupyer notebook MebsInTime.ipynb
 ```
-
+---
 + Then compute the metbolic  completeness
 
 Script available in  [notebook](https://github.com/valdeanda/Time_series_mats/blob/master/scripts/completeness.ipynb) format.
