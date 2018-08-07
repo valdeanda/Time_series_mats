@@ -1,0 +1,14 @@
+Sample_Id	Site	Time	cloud	shell	soft_core
+S1	a	Autumn 12  	23	265	502
+S2	b	Autumn 12  	35	300	498
+S3	c	Autumn 12  	37	246	490
+S4	a	Spring 13	59	330	503
+S5	b	Spring 13	21	152	421
+S6	c	Spring 13	46	361	501
+S7	a	Autumn 13	58	344	501
+S8	b	Autumn 13	39	342	504
+S9	c	Autumn 13	26	262	499
+S10	a	Spring 14	57	396	503
+S11	b	Spring 14	34	365	503
+S12	c	Spring 14	40	362	503
+

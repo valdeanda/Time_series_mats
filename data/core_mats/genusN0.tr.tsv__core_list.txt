@@ -1,0 +1,373 @@
+Actinobacteria unclassified_class_1760
+Actinobacteria unclassified_phylum_201174
+Acetobacteraceae unclassified
+Achromobacter
+Acidiphilium
+Acidithiobacillales unclassified
+Acidobacteria unclassified
+Acidocella
+Acidovorax
+Acinetobacter
+Actinomyces
+Actinoplanes
+Aeromonas
+Aestuariivita
+Afifella
+Afipia
+Agreia
+Agrobacterium
+Akkermansia
+Alcaligenaceae unclassified
+Alcanivorax
+Alistipes
+Alkalilimnicola
+Allochromatium
+Alphaproteobacteria unclassified
+Amorphus
+Amycolatopsis
+Anaeromyxobacter
+Aquitalea
+Arenimonas
+Arhodomonas
+Armatimonadetes unclassified
+Arthrobacter
+Asaia
+Aurantimonadaceae unclassified
+Aurantimonas
+Aureimonas
+Azorhizobium
+Azospira
+Azospirillum
+Bacillaceae unclassified
+Bacillales unclassified
+Bacilli unclassified
+Bacillus
+Bacteria candidate phyla unclassified
+Bacteria unclassified
+Bacteroidales unclassified
+Bacteroides
+Bacteroidetes unclassified
+Belnapia
+Betaproteobacteria unclassified
+Bifidobacterium
+Bilophila
+Blastochloris
+Bordetella
+Bosea
+Bradyrhizobiaceae unclassified
+Bradyrhizobium
+Brevundimonas
+Brucella
+Burkholderia
+Burkholderiaceae unclassified
+Burkholderiales Genera incertae sedis unclassified
+Burkholderiales unclassified
+Caenispirillum
+Campylobacter
+Candidatus Accumulibacter
+Candidatus Moranbacteria unclassified
+Candidatus Peregrinibacteria unclassified
+Candidatus Uhrbacteria unclassified
+Capnocytophaga
+Caulobacter
+Caulobacteraceae unclassified
+Celeribacter
+Cellulomonas
+Chelatococcus
+Chloroflexus
+Chromatiaceae unclassified
+Chromatiales unclassified
+Chromobacteriaceae unclassified
+Chromohalobacter
+Chryseobacterium
+Citreicella
+Citromicrobium
+Cloacimonetes unclassified
+Clostridia unclassified
+Clostridiaceae unclassified
+Clostridiales unclassified
+Clostridium
+Cobetia
+Comamonadaceae unclassified
+Comamonas
+Coriobacteriaceae unclassified
+Corynebacteriales unclassified
+Corynebacterium
+Cryomorphaceae unclassified
+Cupriavidus
+Cyanobacteria unclassified
+Cyclobacteriaceae unclassified
+Cystobacteraceae unclassified
+Cystobacterineae unclassified
+Cytophagaceae unclassified
+Cytophagales unclassified
+Deferrisoma
+Defluviimonas
+Deinococcus
+Deltaproteobacteria unclassified
+Desulfarculus
+Desulfatibacillum
+Desulfatiglans
+Desulfatirhabdium
+Desulfatitalea
+Desulfobacter
+Desulfobacteraceae unclassified
+Desulfobacterales unclassified
+Desulfobulbus
+Desulfocarbo
+Desulfococcus
+Desulfocurvus
+Desulfomicrobium
+Desulfonatronum
+Desulfosarcina
+Desulfotignum
+Desulfovibrio
+Desulfovibrionaceae unclassified
+Desulfovibrionales unclassified
+Desulfuromonadales unclassified
+Desulfuromonas
+Devosia
+Dickeya
+Dinoroseobacter
+Diplosphaera
+Dongia
+Duganella
+Ectothiorhodospira
+Ectothiorhodospiraceae unclassified
+Elioraea
+Ensifer
+Enterobacter
+Enterobacteriaceae unclassified
+Erythrobacteraceae unclassified
+Eukaryota unclassified
+Firmicutes unclassified
+Flavobacteriaceae unclassified
+Flavobacteriales unclassified
+Flavobacterium
+Fodinicurvata
+Frankia
+Gammaproteobacteria unclassified
+Geminicoccus
+Gemmobacter
+Geobacillus
+Geobacter
+Gordonia
+Gulbenkiania
+Haematobacter
+Halobacteria unclassified
+Halomonadaceae unclassified
+Halomonas
+Halorhodospira
+Halorubrum
+Helicobacter
+Herbaspirillum
+Hoeflea
+Hyphomicrobium
+Hyphomonas
+Ideonella
+Inquilinus
+Intrasporangiaceae unclassified
+Jannaschia
+Janthinobacterium
+Kaistia
+Klebsiella
+Labrenzia
+Lachnospiraceae unclassified
+Lactobacillus
+Lamprocystis
+Legionella
+Leifsonia
+Leisingera
+Leptospira
+Loktanella
+Luteibacter
+Lutibaculum
+Lysinimicrobium
+Lysobacter
+Magnetospirillum
+Maribius
+Marichromatium
+Marinimicrobia unclassified
+Marinobacter
+Marinovum
+Maritimibacter
+Massilia
+Meganema
+Meiothermus
+Mesorhizobium
+Methylibium
+Methylobacteriaceae unclassified
+Methylobacterium
+Methylococcaceae unclassified
+Methylocystaceae unclassified
+Methylocystis
+Methylomicrobium
+Methylomonas
+Methylopila
+Methylosinus
+Microbacteriaceae unclassified
+Microbacterium
+Microbispora
+Micrococcaceae unclassified
+Micrococcales unclassified
+Microcystis
+Microgenomates group unclassified
+Micromonospora
+Microvirga
+Mycobacterium
+Myxococcaceae unclassified
+Myxococcales unclassified
+Myxococcus
+Neisseria
+Neisseriaceae unclassified
+Nitratireductor
+Nocardia
+Nocardioidaceae unclassified
+Nocardioides
+Nocardiopsis
+Nostocaceae unclassified
+Novosphingobium
+Oceanibaculum
+Oceanicaulis
+Oceanicola
+Oceaniovalibus
+Ochrobactrum
+Odoribacter
+Olsenella
+Opitutaceae unclassified
+Oscillatoriales unclassified
+Oscillatoriophycideae unclassified
+Oxalobacteraceae unclassified
+Paenibacillus
+Pannonibacter
+Pantoea
+Paracoccus
+Pararhodospirillum
+Parcubacteria group unclassified
+Parvularcula
+Patescibacteria group unclassified
+Pelagibaca
+Pelobacter
+Pelomonas
+Peptococcaceae unclassified
+Phaeobacter
+Phenylobacterium
+Phycicoccus
+Phycisphaera
+Phyllobacteriaceae unclassified
+Planctomycetes unclassified
+Pleomorphomonas
+Polymorphum
+Ponticoccus
+Porphyrobacter
+Porphyromonadaceae unclassified
+Prevotella
+Prochlorococcus
+Propionibacterium
+Prosthecomicrobium
+Proteobacteria unclassified
+Pseudoalteromonas
+Pseudomonadaceae unclassified
+Pseudomonadales unclassified
+Pseudomonas
+Pseudoruegeria
+Pseudoxanthomonas
+PVC group unclassified
+Raoultella
+Reyranella
+Rhizobacter
+Rhizobiaceae unclassified
+Rhizobiales unclassified
+Rhizobium
+Rhizobium/Agrobacterium group unclassified
+Rhodanobacter
+Rhodanobacteraceae unclassified
+Rhodobacter
+Rhodobacteraceae unclassified
+Rhodobacterales unclassified
+Rhodococcus
+Rhodocyclaceae unclassified
+Rhodopirellula
+Rhodopseudomonas
+Rhodospirillaceae unclassified
+Rhodospirillales unclassified
+Rhodospirillum
+Rhodothermaceae unclassified
+Rhodovibrio
+Rhodovulum
+Roseibacterium
+Roseivivax
+Roseobacter
+Roseomonas
+Roseovarius
+Rubellimicrobium
+Rubritepida
+Rubrivivax
+Ruegeria
+Sagittula
+Salinarimonas
+Salinibacter
+Salinispora
+Salipiger
+Scytonema
+Sediminimonas
+Serratia
+Shinella
+Sinorhizobium
+Sinorhizobium/Ensifer group unclassified
+Skermanella
+Solimonas
+Solirubrobacter
+Sphingobium
+Sphingomonadaceae unclassified
+Sphingomonadales unclassified
+Sphingomonas
+Sphingopyxis
+Spirochaeta
+Stappia
+Starkeya
+Stenotrophomonas
+Streptacidiphilus
+Streptococcus
+Streptomyces
+Streptomycetaceae unclassified
+Streptosporangiales unclassified
+Sulfitobacter
+Synechococcus
+Terrabacter
+Terrabacteria group unclassified
+Thalassobacter
+Thalassobaculum
+Thalassospira
+Thauera
+Thermithiobacillus
+Thermoactinomyces
+Thioalkalivibrio
+Thiocapsa
+Thioclava
+Thiocystis
+Thioflavicoccus
+Thiohalocapsa
+Thiohalorhabdus
+Thiomonas
+Thiorhodococcus
+Thiorhodovibrio
+Tistrella
+Treponema
+Tropicibacter
+Unclassified Alphaproteobacteria unclassified
+Unclassified Bacteria unclassified
+Unclassified Betaproteobacteria unclassified
+Unclassified Burkholderiales unclassified
+Unclassified Deltaproteobacteria unclassified
+Unclassified Gammaproteobacteria unclassified
+Unclassified Rhodospirillales unclassified
+Variovorax
+Verrucomicrobia unclassified
+Vibrio
+Wenxinia
+Xanthobacter
+Xanthobacteraceae unclassified
+Xanthomonadaceae unclassified
+Xanthomonadales unclassified
+Xanthomonas
