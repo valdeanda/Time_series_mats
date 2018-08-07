@@ -1,0 +1,303 @@
+==> a_family_consensus.txt.Pvalue.txt <==
+12	8201	0.030
+
+==> a_order_consensus.txt.Pvalue.txt <==
+14	47660	0.000
+38	12227	0.000
+110	160069	0.010
+
+==> b_family_consensus.txt.Pvalue.txt <==
+38	49611	0.000
+46	375802	0.000
+74	88214	0.000
+78	21004	0.000
+
+==> b_order_consensus.txt.Pvalue.txt <==
+12	261	0.030
+
+==> c_class_consensus.txt.Pvalue.txt <==
+6	4821	0.000
+12	138	0.000
+46	51629	0.000
+
+==> c_family_consensus.txt.Pvalue.txt <==
+6	24617	0.010
+12	7989	0.000
+46	401453	0.000
+108	106854	0.000
+238	4938316	0.000
+
+==> c_order_consensus.txt.Pvalue.txt <==
+6	8848	0.000
+12	784	0.000
+36	1774	0.010
+46	141309	0.000
+78	16760	0.000
+98	58	0.000
+110	166974	0.010
+
+==> global_class_consensus.txt.Pvalue.txt <==
+12	1284	0.010
+38	1649	0.000
+46	45662	0.000
+74	3496	0.000
+238	335476	0.000
+
+==> global_family_consensus.txt.Pvalue.txt <==
+12	21675	0.000
+46	283607	0.000
+74	210636	0.000
+108	165438	0.000
+238	7686022	0.000
+
+==> global_order_consensus.txt.Pvalue.txt <==
+12	4877	0.000
+38	4304	0.000
+46	91767	0.000
+74	21318	0.000
+238	1799875	0.000
+
+==> global_phylum_consensus.txt.Pvalue.txt <==
+12	174	0.050
+38	219	0.000
+46	6737	0.000
+74	1279	0.000
+238	66289	0.000
+
+==> Negative_a_class_consensus.txt.Pvalue.txt <==
+12	10926	0.000
+36	3396	0.000
+46	7809	0.000
+108	21626	0.000
+238	25840	0.000
+
+==> Negative_a_family_consensus.txt.Pvalue.txt <==
+12	516345	0.000
+46	443967	0.000
+108	928628	0.000
+238	1214641	0.000
+
+==> Negative_a_order_consensus.txt.Pvalue.txt <==
+12	124492	0.000
+46	108078	0.000
+98	10314	0.000
+108	189264	0.000
+238	235245	0.000
+
+==> Negative_a_phylum_consensus.txt.Pvalue.txt <==
+12	3897	0.000
+46	3370	0.000
+108	4097	0.000
+238	7242	0.000
+
+==> Negative_b_class_consensus.txt.Pvalue.txt <==
+12	19631	0.000
+46	20282	0.000
+108	13395	0.000
+238	67538	0.000
+
+==> Negative_b_family_consensus.txt.Pvalue.txt <==
+12	296782	0.000
+46	418899	0.000
+74	438322	0.000
+108	288641	0.000
+238	1122675	0.000
+
+==> Negative_b_order_consensus.txt.Pvalue.txt <==
+12	92550	0.000
+46	118674	0.000
+74	84834	0.000
+108	63396	0.000
+238	265481	0.000
+
+==> Negative_b_phylum_consensus.txt.Pvalue.txt <==
+12	4187	0.000
+46	6053	0.000
+108	3161	0.000
+238	14535	0.000
+
+==> Negative_c_class_consensus.txt.Pvalue.txt <==
+12	49090	0.000
+46	25546	0.000
+108	25360	0.000
+238	26465	0.000
+
+==> Negative_c_family_consensus.txt.Pvalue.txt <==
+12	637138	0.000
+46	231282	0.000
+108	590860	0.000
+238	994237	0.000
+
+==> Negative_c_order_consensus.txt.Pvalue.txt <==
+12	192324	0.000
+46	80745	0.000
+108	129580	0.000
+238	173178	0.000
+
+==> Negative_c_phylum_consensus.txt.Pvalue.txt <==
+12	8185	0.000
+46	5361	0.000
+108	3537	0.000
+238	4709	0.000
+
+==> Negative_global_class_consensus.txt.Pvalue.txt <==
+12	11863	0.000
+46	18143	0.000
+74	31715	0.000
+98	879	0.000
+108	14287	0.000
+238	127668	0.000
+
+==> Negative_global_family_consensus.txt.Pvalue.txt <==
+12	173707	0.000
+14	504842	0.000
+46	266855	0.000
+74	721936	0.000
+98	19798	0.000
+108	484398	0.000
+238	3571900	0.000
+
+==> Negative_global_order_consensus.txt.Pvalue.txt <==
+12	45307	0.000
+14	132648	0.000
+46	70471	0.000
+74	159855	0.000
+98	4004	0.000
+108	103574	0.000
+238	745682	0.000
+
+==> Negative_global_phylum_consensus.txt.Pvalue.txt <==
+12	2169	0.000
+46	4625	0.000
+74	6560	0.000
+98	150	0.000
+108	1826	0.000
+238	28135	0.000
+
+==> Positive_a_class_consensus.txt.Pvalue.txt <==
+6	8777	0.000
+14	3584	0.000
+36	23144	0.000
+78	16029	0.000
+98	952	0.000
+102	10431	0.000
+
+==> Positive_a_family_consensus.txt.Pvalue.txt <==
+6	488731	0.000
+14	398886	0.000
+36	1101495	0.000
+78	862356	0.000
+98	35626	0.000
+102	398510	0.000
+
+==> Positive_a_order_consensus.txt.Pvalue.txt <==
+6	123063	0.000
+14	68336	0.000
+36	237535	0.000
+78	151596	0.000
+98	12533	0.000
+102	98460	0.000
+
+==> Positive_a_phylum_consensus.txt.Pvalue.txt <==
+6	3448	0.000
+36	5043	0.000
+78	7690	0.000
+102	3674	0.000
+
+==> Positive_b_class_consensus.txt.Pvalue.txt <==
+6	24190	0.000
+14	25317	0.000
+36	34887	0.000
+74	14570	0.000
+78	45686	0.000
+98	1083	0.000
+102	12031	0.000
+
+==> Positive_b_family_consensus.txt.Pvalue.txt <==
+6	429104	0.000
+14	465213	0.000
+36	410950	0.000
+74	432426	0.000
+78	766482	0.000
+98	17457	0.000
+102	200463	0.000
+
+==> Positive_b_genus_consensus.txt.Pvalue.txt <==
+6	118	0.010
+12	30	0.010
+36	15	0.010
+
+==> Positive_b_order_consensus.txt.Pvalue.txt <==
+6	118756	0.000
+14	119439	0.000
+36	129478	0.000
+74	97972	0.000
+78	195155	0.000
+98	6921	0.000
+102	57833	0.000
+
+==> Positive_b_phylum_consensus.txt.Pvalue.txt <==
+6	6996	0.000
+12	2349	0.000
+14	2232	0.000
+36	8243	0.000
+78	7709	0.000
+102	2690	0.000
+
+==> Positive_c_class_consensus.txt.Pvalue.txt <==
+6	32372	0.000
+14	27866	0.000
+36	37429	0.000
+78	82139	0.000
+102	45722	0.000
+
+==> Positive_c_family_consensus.txt.Pvalue.txt <==
+6	251707	0.000
+14	453462	0.000
+36	841276	0.000
+78	1913452	0.000
+98	21651	0.000
+102	566965	0.000
+
+==> Positive_c_order_consensus.txt.Pvalue.txt <==
+6	88550	0.000
+14	116000	0.000
+36	177990	0.000
+78	447899	0.000
+98	6869	0.000
+102	171269	0.000
+
+==> Positive_c_phylum_consensus.txt.Pvalue.txt <==
+6	5663	0.000
+14	3630	0.000
+36	4704	0.000
+78	16140	0.000
+102	7817	0.000
+
+==> Positive_global_class_consensus.txt.Pvalue.txt <==
+6	23415	0.000
+36	20691	0.000
+78	75703	0.000
+102	32966	0.000
+110	85650	0.000
+
+==> Positive_global_family_consensus.txt.Pvalue.txt <==
+6	291113	0.000
+36	510527	0.000
+78	1568783	0.000
+102	623938	0.000
+110	1991825	0.000
+
+==> Positive_global_order_consensus.txt.Pvalue.txt <==
+6	80008	0.000
+36	93613	0.000
+78	366590	0.000
+102	157673	0.000
+110	511584	0.000
+
+==> Positive_global_phylum_consensus.txt.Pvalue.txt <==
+6	4285	0.000
+36	3680	0.000
+78	15386	0.000
+102	5452	0.000
+110	15721	0.000
