@@ -99,7 +99,7 @@ The dynamic networks for each site are available here:
 + [Site A](https://valdeanda.github.io/Time_series_mats/figures/SiteA.html)
 + [Site B](https://valdeanda.github.io/Time_series_mats/figures/SiteB.html)
 + [Site C](https://valdeanda.github.io/Time_series_mats/figures/siteC.html)
-+ [One percentge of the total interactions(https://valdeanda.github.io/Time_series_mats/figures/onepercentinteractions.html)
++ [One percentge of the total interactions](https://valdeanda.github.io/Time_series_mats/figures/onepercentinteractions.html)
 ---
 
 
