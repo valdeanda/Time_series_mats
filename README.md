@@ -5,7 +5,7 @@
 
 Repository that contain the main data and scripts to recompute the figures from: 
 
-**De Anda V**, Zapata Peñasco I, Blaz J, Poot-Hernandez AC, Contreras Moreira B, Gonzales Laffite Marcos, Hernandez Rosales M, Gamez Tamariz N, Eguiarte Fruns E, Souza V. **Understanding the mechanisms behind the response of environmental perturbations in microbial mats: a metagenomic-network based approach.** Submitted in Frontiers in Microbiology.Research Topic [Characterizing Modern Microbialites and The Geobiological Processes Underlying Their Formation](https://www.frontiersin.org/research-topics/5694/characterizing-modern-microbialites-and-the-geobiological-processes-underlying-their-formation)
+**De Anda V**, Zapata Peñasco I, Blaz J, Poot-Hernandez AC, Contreras Moreira B, Gonzales Laffite Marcos, Hernandez Rosales M, Gamez Tamariz N, Eguiarte Fruns E, Souza V. **Understanding the mechanisms behind the response to environmental perturbations in microbial mats: a metagenomic-network based approach** [Front. Microbiol. 9:2606. doi: 10.3389/fmicb.2018.02606](https://www.frontiersin.org/articles/10.3389/fmicb.2018.02606/full)
 
 
 To reproduce the figures first install [jupyter notebook](http://jupyter.org/install.html) and then clone the repository.  
