@@ -7,6 +7,8 @@ Repository that contain the main data and scripts to recompute the figures from:
 
 **De Anda V**, Zapata Peñasco I, Blaz J, Poot-Hernandez AC, Contreras Moreira B, Gonzales Laffite Marcos, Hernandez Rosales M, Gamez Tamariz N, Eguiarte Fruns E, Souza V. **Understanding the mechanisms behind the response to environmental perturbations in microbial mats: a metagenomic-network based approach** [Front. Microbiol. 9:2606. doi: 10.3389/fmicb.2018.02606](https://www.frontiersin.org/articles/10.3389/fmicb.2018.02606/full)
 
+Last updated: 11/29/2018 
+
 
 To reproduce the figures first install [jupyter notebook](http://jupyter.org/install.html) and then clone the repository.  
 
