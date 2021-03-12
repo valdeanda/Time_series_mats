@@ -1,5 +1,4 @@
 
-# **[README in html version](https://valdeanda.github.io/Time_series_mats/)**
 
 ## Supplementary Information
 
@@ -129,4 +128,6 @@ jupyter notebook  Motifs.ipynb
 For more information about Cuatro Cienegas please visit the documentary film, click the image below
 
 [<img  src="https://valdeanda.github.io/Time_series_mats/figures/film.png" width="200" height="200" align="center">](http://documentalcuatrocienegas.com/)
+
+## **[README in html version](https://valdeanda.github.io/Time_series_mats/)**
 
